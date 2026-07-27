@@ -28,7 +28,7 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 1. **Identificação**: Data do agravo, processo BH Digital (se houver), nome da parte em maiúsculas, número do processo original no formato pontuado SIGEDE (`99.999999.99.99` — ex: `70.006440.26.78`) e data do protocolo da reclamação original.
 2. **Fatos da controvérsia**: Origem do litígio (ex: aquisição do imóvel, datas, valores, base de cálculo apurada pelo Fisco, valores pagos pelo contribuinte e o que se alega correto).
 3. **Fundamentos do Despacho Recorrido**: Qualificação jurídica dada pelo Fisco ao pedido inicial, prazo aplicado e dispositivo legal invocado para negar seguimento.
-4. **Razões do Agravante**: Tese do contribuinte (ex: prazo prescricional quinquenal do art. 168, I, CTN; erro de qualificação do pedido; princípio da instrumentalidade das formas; autotutela; precedentes do STJ).
+4. **Razões do Agravante**: Tese do contribuinte (ex: prazo quinquenal do art. 168, I, CTN; erro de qualificação do pedido; princípio da instrumentalidade das formas; autotutela; precedentes do STJ).
 5. **Manifestação do Fisco / Contrarrazões**: Registrar expressamente se a autoridade fazendária apresentou contrarrazões ao recurso de agravo ou se não se manifestou (ex.: *"Notificado a se manifestar acerca do recurso, o Fisco não apresentou contrarrazões, limitando-se a ratificar o despacho de negativa de seguimento (Ato X)."* ou *"A autoridade fazendária apresentou contrarrazões no Ato X, sustentando a manutenção da decisão recorrida."*).
 6. **Pedido Final**: Síntese do pedido feito na peça de agravo.
 7. **Encerramento**: **"É o relatório."**
@@ -59,7 +59,7 @@ Aplica-se a qualquer tributo (ITBI, IPTU, ISS, taxas etc.) quando o Fisco qualif
 1. Identificar o enquadramento incorreto do Fisco como impugnação a lançamento e o prazo exíguo aplicado (ex.: 90 dias — Decreto nº 17.026/2018 ou 17.206/2018, arts. 7º e 12; ou 30 dias — art. 106, I, do CTM, conforme o tributo).
 2. Demonstrar que a pretensão real é a **restituição de indébito** (crédito tributário já pago pelo contribuinte, com pedido de devolução total ou parcial). A natureza jurídica do pedido é definida pelo seu objeto — o que o contribuinte efetivamente pretende — e pela causa de pedir — o pagamento indevido —, e não pelo *nomen iuris* atribuído à peça (Reclamação, Impugnação ou Pedido de Revisão). Impõe-se, nesse ponto, a observância dos princípios da **verdade material** e do **formalismo moderado** que regem o processo administrativo tributário: se o contribuinte requer a revisão de valor já pago, a verdadeira substância do pedido prevalece sobre a classificação sistêmica ou o rótulo que lhe foi conferido no momento do protocolo.
 3. Aplicar o **Princípio da Instrumentalidade das Formas** (arts. 188, 277 e 322, § 2º, do CPC c/c art. 336 do CTM). Citar doutrinadores de referência (*Daniel Amorim Assumpção Neves, José de Albuquerque Rocha, Cândido Rangel Dinamarco*).
-4. Demonstrar a tempestividade sob o prazo prescricional quinquenal do **art. 168, I, do CTN** (5 anos a contar da data do pagamento / extinção do crédito tributário).
+4. Demonstrar a tempestividade sob o prazo quinquenal do **art. 168, I, do CTN** (5 anos a contar da data do pagamento / extinção do crédito tributário).
 5. Calcular explicitamente: `data do pagamento + 5 anos` e confrontar com a data do protocolo da reclamação.
 
 #### Caso B: IPTU — Impugnação a Lançamento Intempestiva (Prazo de 30 dias)
