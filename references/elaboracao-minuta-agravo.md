@@ -25,7 +25,7 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 > **Opção 2**: "Versam os autos sobre Agravo interposto em [DATA], por meio do [PROCESSO BH DIGITAL Nº / ou sem referência se não houver], por [NOME EM MAIÚSCULAS], contra Despacho de Negativa de Seguimento exarado nos autos do processo administrativo nº [Nº], por meio do qual o Recorrente postulava [objeto da reclamação]."
 
 **Conteúdo Sequencial (Prosa Corrida)**:
-1. **Identificação**: Data do agravo, processo BH Digital (se houver), nome da parte em maiúsculas, número do processo original e data do protocolo da reclamação original.
+1. **Identificação**: Data do agravo, processo BH Digital (se houver), nome da parte em maiúsculas, número do processo original no formato pontuado SIGEDE (`99.999999.99.99` — ex: `70.006440.26.78`) e data do protocolo da reclamação original.
 2. **Fatos da controvérsia**: Origem do litígio (ex: aquisição do imóvel, datas, valores, base de cálculo apurada pelo Fisco, valores pagos pelo contribuinte e o que se alega correto).
 3. **Fundamentos do Despacho Recorrido**: Qualificação jurídica dada pelo Fisco ao pedido inicial, prazo aplicado e dispositivo legal invocado para negar seguimento.
 4. **Razões do Agravante**: Tese do contribuinte (ex: prazo prescricional quinquenal do art. 168, I, CTN; erro de qualificação do pedido; princípio da instrumentalidade das formas; autotutela; precedentes do STJ).
