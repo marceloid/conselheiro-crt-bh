@@ -37,9 +37,66 @@ Esta skill possui uma arquitetura modular baseada em um arquivo orquestrador ger
 
 ---
 
-## 🛠️ Como Utilizar
+## 🛠️ Como Instalar nos Agentes de IA
 
-Basta incluir este repositório ou copiar o arquivo [`SKILL.md`](SKILL.md) e a pasta [`references/`](references/) para o diretório de skills do seu ambiente de IA (Google Antigravity, Claude, Custom GPTs, etc.).
+### 1. Instalação Centralizada no Hub de Skills (`~/.agents/skills`)
+
+Recomendamos clonar o repositório no seu repositório central de skills:
+
+```bash
+git clone https://github.com/marceloid/conselheiro-crt-bh.git ~/.agents/skills/conselheiro-do-crt-bh
+```
+
+A partir daí, você pode criar links simbólicos (symlinks) para os agentes desejados:
+
+---
+
+### 2. Google Antigravity (`~/.gemini/antigravity/skills`)
+
+Para disponibilizar a skill globalmente no Antigravity:
+
+```bash
+mkdir -p ~/.gemini/antigravity/skills
+ln -s ~/.agents/skills/conselheiro-do-crt-bh ~/.gemini/antigravity/skills/conselheiro-do-crt-bh
+```
+
+*Ou diretamente no repositório de trabalho:*
+```bash
+ln -s ~/.agents/skills/conselheiro-do-crt-bh ./skills/conselheiro-do-crt-bh
+```
+
+---
+
+### 3. Claude Code / Claude CLI (`~/.claude/skills`)
+
+Para vincular a skill ao Claude Code:
+
+```bash
+mkdir -p ~/.claude/skills
+ln -s ~/.agents/skills/conselheiro-do-crt-bh ~/.claude/skills/conselheiro-do-crt-bh
+```
+
+---
+
+### 4. Pi Agent (`~/.pi/agent/skills`)
+
+Para disponibilizar a skill no Pi Agent:
+
+```bash
+mkdir -p ~/.pi/agent/skills
+ln -s ~/.agents/skills/conselheiro-do-crt-bh ~/.pi/agent/skills/conselheiro-do-crt-bh
+```
+
+---
+
+### 5. OpenCode (`~/.config/opencode/skills` ou `~/.opencode/skills`)
+
+Para instalar no OpenCode:
+
+```bash
+mkdir -p ~/.config/opencode/skills
+ln -s ~/.agents/skills/conselheiro-do-crt-bh ~/.config/opencode/skills/conselheiro-do-crt-bh
+```
 
 ---
 
