@@ -19,8 +19,10 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 
 ### PEÇA 1 — Relatório do Agravo
 
-**Abertura Padrão (Obrigatória)**:
-> "Versam os autos sobre Agravo interposto em [DATA], por meio do [PROCESSO BH DIGITAL Nº / ou sem referência se não houver], por [NOME EM MAIÚSCULAS], contra Despacho de Negativa de Seguimento exarado nos autos do processo administrativo nº [Nº], por meio do qual o Recorrente postulava [objeto da reclamação]."
+**Abertura Padrão (Obrigatória)** — usar uma das duas formas abaixo:
+> **Opção 1**: "Trata-se de Agravo interposto em [DATA], por meio do [PROCESSO BH DIGITAL Nº / ou sem referência se não houver], por [NOME EM MAIÚSCULAS], contra Despacho de Negativa de Seguimento exarado nos autos do processo administrativo nº [Nº], por meio do qual o Recorrente postulava [objeto da reclamação]."
+>
+> **Opção 2**: "Versam os autos sobre Agravo interposto em [DATA], por meio do [PROCESSO BH DIGITAL Nº / ou sem referência se não houver], por [NOME EM MAIÚSCULAS], contra Despacho de Negativa de Seguimento exarado nos autos do processo administrativo nº [Nº], por meio do qual o Recorrente postulava [objeto da reclamação]."
 
 **Conteúdo Sequencial (Prosa Corrida)**:
 1. **Identificação**: Data do agravo, processo BH Digital (se houver), nome da parte em maiúsculas, número do processo original e data do protocolo da reclamação original.
@@ -34,8 +36,8 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 
 ### PEÇA 2 — Voto (Admissibilidade e Mérito)
 
-**Abertura Padrão do Voto**:
-> "Versam os autos sobre Agravo interposto em [DATA], por [NOME], contra Despacho de Negativa de Seguimento exarado nos autos do processo administrativo nº [Nº], por meio do qual o Recorrente postulava [objeto resumido]."
+**Abertura Padrão do Voto** — delimitar a controvérsia sem repetir o relatório:
+> "A controvérsia submetida a este colegiado cinge-se a verificar se [questão central do agravo — ex.: o enquadramento jurídico conferido pelo Fisco ao pedido inicial justificava a negativa de seguimento por intempestividade / se o prazo aplicado pelo Fisco corresponde à natureza da pretensão deduzida pelo Recorrente]."
 
 **Delimitação do Escopo do Recurso** *(Incluir sempre que houver pedido exorbitante, como restituição imediata ou mérito da inicial)*:
 > "Nesse contexto, não conheço do pedido de [descrever o pedido exorbitante], por exorbitar o objeto passível de apreciação nesta sede recursal, circunscrita à análise da legalidade do ato denegatório do seguimento. Feita essa delimitação, passo ao exame dos pressupostos de admissibilidade do Agravo."
@@ -51,11 +53,12 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 
 **Do Mérito**:
 
-#### Caso A: ITBI — Erro de Qualificação Jurídica (Restituição de Indébito vs. Impugnação a Lançamento)
-1. Identificar enquadramento incorreto do Fisco como impugnação a lançamento (prazo de 90 dias — Decreto nº 17.026/2018 ou 17.206/2018, arts. 7º e 12).
-2. Demonstrar que a pretensão real é a **restituição de indébito** (crédito tributário já pago pelo contribuinte).
+#### Caso A: Erro de Qualificação Jurídica (Restituição de Indébito vs. Impugnação a Lançamento)
+Aplica-se a qualquer tributo (ITBI, IPTU, ISS, taxas etc.) quando o Fisco qualifica incorretamente um pedido de restituição de indébito como impugnação a lançamento, aplicando prazo mais exíguo.
+1. Identificar o enquadramento incorreto do Fisco como impugnação a lançamento e o prazo exíguo aplicado (ex.: 90 dias — Decreto nº 17.026/2018 ou 17.206/2018, arts. 7º e 12; ou 30 dias — art. 106, I, do CTM, conforme o tributo).
+2. Demonstrar que a pretensão real é a **restituição de indébito** (crédito tributário já pago pelo contribuinte, com pedido de devolução total ou parcial). A natureza jurídica do pedido é definida pelo seu objeto — o que o contribuinte efetivamente pretende — e pela causa de pedir — o pagamento indevido —, e não pelo *nomen iuris* atribuído à peça (Reclamação, Impugnação ou Pedido de Revisão). Impõe-se, nesse ponto, a observância dos princípios da **verdade material** e do **formalismo moderado** que regem o processo administrativo tributário: se o contribuinte requer a revisão de valor já pago, a verdadeira substância do pedido prevalece sobre a classificação sistêmica ou o rótulo que lhe foi conferido no momento do protocolo.
 3. Aplicar o **Princípio da Instrumentalidade das Formas** (arts. 188, 277 e 322, § 2º, do CPC c/c art. 336 do CTM). Citar doutrinadores de referência (*Daniel Amorim Assumpção Neves, José de Albuquerque Rocha, Cândido Rangel Dinamarco*).
-4. Demonstrar a tempestividade sob o prazo prescricional quinquenal do **art. 168, I, do CTN** (5 anos a contar da data do pagamento / extinção do crédito).
+4. Demonstrar a tempestividade sob o prazo prescricional quinquenal do **art. 168, I, do CTN** (5 anos a contar da data do pagamento / extinção do crédito tributário).
 5. Calcular explicitamente: `data do pagamento + 5 anos` e confrontar com a data do protocolo da reclamação.
 
 #### Caso B: IPTU — Impugnação a Lançamento Intempestiva (Prazo de 30 dias)
@@ -79,6 +82,6 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 **Estrutura**:
 - Linha 1: "EMENTA" em destaque.
 - Cabeçalho em CAIXA ALTA (palavras-chave separadas por pontos finais):
-  - *Exemplo ITBI Provido*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. ITBI. QUALIFICAÇÃO JURÍDICA DO PEDIDO INICIAL. NATUREZA MATERIAL DE RESTITUIÇÃO DE INDÉBITO. INAPLICABILIDADE DO PRAZO DECADENCIAL DE 90 DIAS. PRINCÍPIO DA INSTRUMENTALIDADE DAS FORMAS. ARTS. 188, 277 E 322, § 2º, DO CPC. PRAZO QUINQUENAL (ART. 168, I, DO CTN). TEMPESTIVIDADE CONFIGURADA. RECURSO CONHECIDO E PROVIDO.`
+  - *Exemplo Erro de Qualificação (Provido)*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. [TRIBUTO]. QUALIFICAÇÃO JURÍDICA DO PEDIDO INICIAL. NATUREZA MATERIAL DE RESTITUIÇÃO DE INDÉBITO. INAPLICABILIDADE DO PRAZO DE IMPUGNAÇÃO A LANÇAMENTO. PRINCÍPIO DA INSTRUMENTALIDADE DAS FORMAS. ARTS. 188, 277 E 322, § 2º, DO CPC. PRAZO QUINQUENAL (ART. 168, I, DO CTN). TEMPESTIVIDADE CONFIGURADA. RECURSO CONHECIDO E PROVIDO.`
   - *Exemplo IPTU Desprovido*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. IPTU. IMPUGNAÇÃO A LANÇAMENTOS ANUAIS E RETROATIVOS. INTEMPESTIVIDADE. INAPLICABILIDADE DO PRAZO DECADENCIAL (ART. 173 DO CTN) PARA IMPUGNAÇÃO PELO CONTRIBUINTE. OBSERVÂNCIA DO PRAZO LEGAL DE 30 DIAS. AGRAVO CONHECIDO E DESPROVIDO.`
 - Corpo sintético resumindo a tese jurídica aplicada e o resultado do julgamento.
