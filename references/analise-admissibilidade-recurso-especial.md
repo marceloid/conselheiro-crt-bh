@@ -50,7 +50,8 @@ A análise de admissibilidade do REsp deve verificar rigorosamente os seguintes 
 2. **Síntese da Matéria Decidida no Acórdão Recorrido**: Resumo do entendimento adotado pela Câmara de Julgamento de origem.
 3. **Razões do REsp e Acórdão Paradigma Invocado**: Tese defendida pelo recorrente, indicação do acórdão paradigma (número e câmara) e o ponto exato de divergência alegado na aplicação da legislação tributária.
 4. **Tempestividade e Dados de Intimação**: Registrar a data de publicação do acórdão recorrido no DOM e a data do protocolo do REsp.
-5. **Encerramento**: **"É o relatório."**
+5. **Manifestação da Parte Recorrida / Contrarrazões**: Registrar expressamente se a parte contrária (Fisco ou Contribuinte) apresentou contrarrazões ao REsp ou se decorreu *in albis* / não se manifestou (ex.: *"Devidamente intimado/a para se manifestar, o/a Recorrido/a não apresentou contrarrazões, decorrendo in albis o prazo regulamentar."* ou *"O/A Recorrido/a apresentou contrarrazões no Ato X, pugnando pela manutenção do acórdão recorrido."*).
+6. **Encerramento**: **"É o relatório."**
 
 ---
 

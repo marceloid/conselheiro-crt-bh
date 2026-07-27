@@ -29,8 +29,9 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 2. **Fatos da controvérsia**: Origem do litígio (ex: aquisição do imóvel, datas, valores, base de cálculo apurada pelo Fisco, valores pagos pelo contribuinte e o que se alega correto).
 3. **Fundamentos do Despacho Recorrido**: Qualificação jurídica dada pelo Fisco ao pedido inicial, prazo aplicado e dispositivo legal invocado para negar seguimento.
 4. **Razões do Agravante**: Tese do contribuinte (ex: prazo prescricional quinquenal do art. 168, I, CTN; erro de qualificação do pedido; princípio da instrumentalidade das formas; autotutela; precedentes do STJ).
-5. **Pedido Final**: Síntese do pedido feito na peça de agravo.
-6. **Encerramento**: **"É o relatório."**
+5. **Manifestação do Fisco / Contrarrazões**: Registrar expressamente se a autoridade fazendária apresentou contrarrazões ao recurso de agravo ou se não se manifestou (ex.: *"Notificado a se manifestar acerca do recurso, o Fisco não apresentou contrarrazões, limitando-se a ratificar o despacho de negativa de seguimento (Ato X)."* ou *"A autoridade fazendária apresentou contrarrazões no Ato X, sustentando a manutenção da decisão recorrida."*).
+6. **Pedido Final**: Síntese do pedido feito na peça de agravo.
+7. **Encerramento**: **"É o relatório."**
 
 ---
 
