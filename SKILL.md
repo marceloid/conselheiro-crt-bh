@@ -70,3 +70,20 @@ graph TD
 - **Daniel Amorim Assumpção Neves**: Aproveitamento dos atos processuais que atingem a finalidade sem prejuízo.
 - **José de Albuquerque Rocha**: O processo como instrumento de eficiência.
 - **Cândido Rangel Dinamarco**: Instrumentalidade das formas sob a perspectiva do resultado prático do processo.
+
+---
+
+## 5. Geração de Documentos (.docx)
+
+Sempre que for solicitado a gerar ou exportar o arquivo Word contendo a minuta (Relatório, Voto e Ementa), utilize a skill **`docx`**:
+
+1. **Verificação de Dependência**:
+   - O agente deve verificar a presença da skill `docx` no ambiente (disponível em `~/.agents/skills/docx`). Se a skill `docx` não estiver instalada, utilize a skill `find-skills` ou oriente a sua instalação antes de prosseguir.
+
+2. **Modelo Padrão de Agravos**:
+   - Para minutas de Agravo, utilize o modelo oficial fornecido no repositório em `templates/modelo-agravo.docx` (caminho relativo ao repositório desta skill).
+
+3. **Fluxo de Preenchimento**:
+   - Desempacote `templates/modelo-agravo.docx` com a skill `docx`.
+   - Atualize os textos das seções (Relatório, Voto e Ementa), preservando a estrutura de parágrafos, cabeçalhos, números de processo (pontuados), formatação e estilos do modelo.
+   - Empacote (`pack.py`) e valide (`validate.py`) o arquivo `.docx` gerado.

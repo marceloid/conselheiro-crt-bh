@@ -86,3 +86,16 @@ Aplica-se a qualquer tributo (ITBI, IPTU, ISS, taxas etc.) quando o Fisco qualif
   - *Exemplo Erro de Qualificação (Provido)*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. [TRIBUTO]. QUALIFICAÇÃO JURÍDICA DO PEDIDO INICIAL. NATUREZA MATERIAL DE RESTITUIÇÃO DE INDÉBITO. INAPLICABILIDADE DO PRAZO DE IMPUGNAÇÃO A LANÇAMENTO. PRINCÍPIO DA INSTRUMENTALIDADE DAS FORMAS. ARTS. 188, 277 E 322, § 2º, DO CPC. PRAZO QUINQUENAL (ART. 168, I, DO CTN). TEMPESTIVIDADE CONFIGURADA. RECURSO CONHECIDO E PROVIDO.`
   - *Exemplo IPTU Desprovido*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. IPTU. IMPUGNAÇÃO A LANÇAMENTOS ANUAIS E RETROATIVOS. INTEMPESTIVIDADE. INAPLICABILIDADE DO PRAZO DECADENCIAL (ART. 173 DO CTN) PARA IMPUGNAÇÃO PELO CONTRIBUINTE. OBSERVÂNCIA DO PRAZO LEGAL DE 30 DIAS. AGRAVO CONHECIDO E DESPROVIDO.`
 - Corpo sintético resumindo a tese jurídica aplicada e o resultado do julgamento.
+
+---
+
+## 4. Geração do Arquivo DOCX via Modelo Oficial
+
+Quando solicitado a gerar a minuta em arquivo Word (`.docx`):
+
+1. **Dependência**: Utilize a skill `docx` (verificar se está instalada em `~/.agents/skills/docx`).
+2. **Modelo**: Utilize o modelo fornecido na pasta `templates/modelo-agravo.docx` da presente skill.
+3. **Preenchimento e Validação**:
+   - Desempacote `templates/modelo-agravo.docx` com a ferramenta da skill `docx`.
+   - Atualize os textos das três peças (Relatório, Voto e Ementa), o número do agravo e o número do processo (formato pontuado `99.999999.99.99`), preservando a estrutura visual, cabeçalhos, rodapés e estilos.
+   - Empacote o documento com `pack.py` e execute a validação com `validate.py` para garantir 100% de integridade no MS Word.
