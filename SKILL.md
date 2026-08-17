@@ -42,11 +42,11 @@ graph TD
 
 1. **Minuta de Agravo contra Despacho de Negativa de Seguimento**:
    - Para elaboração de Relatório, Voto e Ementa em Agravos (Câmara de Presidentes).
-   - Consulte o procedimento detalhado em: [`references/elaboracao-minuta-agravo.md`](file:///Users/joaomarcelo/Dev/PBH/crt-skill/references/elaboracao-minuta-agravo.md)
+   - Consulte o procedimento detalhado em: references/elaboracao-minuta-agravo.md
 
 2. **Análise de Admissibilidade de Recurso Especial (REsp)**:
    - Para elaboração de Relatório, Voto e Ementa do Acórdão de Admissibilidade do REsp (Câmara de Presidentes sob o Decreto nº 19.460/2026) ou Despacho Monocrático (sob regulamentos anteriores).
-   - Consulte o procedimento detalhado em: [`references/analise-admissibilidade-recurso-especial.md`](file:///Users/joaomarcelo/Dev/PBH/crt-skill/references/analise-admissibilidade-recurso-especial.md)
+   - Consulte o procedimento detalhado em: references/analise-admissibilidade-recurso-especial.md
 
 3. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
    - Reservado para o procedimento de julgamento de mérito do REsp perante a Câmara Especial de Recursos.
@@ -78,7 +78,7 @@ graph TD
 Sempre que for solicitado a gerar ou exportar o arquivo Word contendo a minuta (Relatório, Voto e Ementa), utilize a skill **`docx`**:
 
 1. **Verificação de Dependência**:
-   - O agente deve verificar a presença da skill `docx` no ambiente (disponível em `~/.agents/skills/docx`). Se a skill `docx` não estiver instalada, utilize a skill `find-skills` ou oriente a sua instalação antes de prosseguir.
+   - O agente deve verificar a presença da skill `docx` no ambiente (skill `productivity/docx` no Hermes). Se a skill `docx` não estiver instalada, oriente a sua instalação antes de prosseguir.
 
 2. **Modelo Padrão de Agravos**:
    - Para minutas de Agravo, utilize o modelo oficial fornecido no repositório em `templates/modelo-agravo.docx` (caminho relativo ao repositório desta skill).
