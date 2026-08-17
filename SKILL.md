@@ -42,11 +42,11 @@ graph TD
 
 1. **Minuta de Agravo contra Despacho de Negativa de Seguimento**:
    - Para elaboração de Relatório, Voto e Ementa em Agravos (Câmara de Presidentes).
-   - Consulte o procedimento detalhado em: references/elaboracao-minuta-agravo.md
+   - Consulte o procedimento detalhado em: [`references/elaboracao-minuta-agravo.md`](references/elaboracao-minuta-agravo.md)
 
 2. **Análise de Admissibilidade de Recurso Especial (REsp)**:
    - Para elaboração de Relatório, Voto e Ementa do Acórdão de Admissibilidade do REsp (Câmara de Presidentes sob o Decreto nº 19.460/2026) ou Despacho Monocrático (sob regulamentos anteriores).
-   - Consulte o procedimento detalhado em: references/analise-admissibilidade-recurso-especial.md
+   - Consulte o procedimento detalhado em: [`references/analise-admissibilidade-recurso-especial.md`](references/analise-admissibilidade-recurso-especial.md)
 
 3. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
    - Reservado para o procedimento de julgamento de mérito do REsp perante a Câmara Especial de Recursos.
