@@ -78,7 +78,7 @@ graph TD
 Sempre que for solicitado a gerar ou exportar o arquivo Word contendo a minuta (Relatório, Voto e Ementa), utilize a skill **`docx`**:
 
 1. **Verificação de Dependência**:
-   - O agente deve verificar a presença da skill `docx` no ambiente (skill `productivity/docx` no Hermes). Se a skill `docx` não estiver instalada, oriente a sua instalação antes de prosseguir.
+   - O agente deve verificar a presença da skill `docx` no ambiente, buscando-a entre as skills disponíveis. Se a skill `docx` não estiver instalada, oriente a sua instalação antes de prosseguir.
 
 2. **Modelo Padrão de Agravos**:
    - Para minutas de Agravo, utilize o modelo oficial fornecido no repositório em `templates/modelo-agravo.docx` (caminho relativo ao repositório desta skill).
