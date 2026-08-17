@@ -96,6 +96,8 @@ Quando solicitado a gerar a minuta em arquivo Word (`.docx`):
 1. **Dependência**: Utilize a skill `docx` (verificar se está instalada em `~/.agents/skills/docx`).
 2. **Modelo**: Utilize o modelo fornecido na pasta `templates/modelo-agravo.docx` da presente skill.
 3. **Preenchimento e Validação**:
-   - Desempacote `templates/modelo-agravo.docx` com a ferramenta da skill `docx`.
+   - **Prefira a API do python-docx à cirurgia de XML** (unpack/edit/pack): abra o modelo com `docx.Document()`, remova os parágrafos do corpo preservando o `sectPr`, e reconstrua o conteúdo por API (styles, header/footer e seção herdados do modelo). Manipulação manual de XML causou 3 rodadas de "arquivo mal formado" no Word (ver Caso AG 1094, 2026-08-17).
    - Atualize os textos das três peças (Relatório, Voto e Ementa), o número do agravo e o número do processo (formato pontuado `99.999999.99.99`), preservando a estrutura visual, cabeçalhos, rodapés e estilos.
-   - Empacote o documento com `pack.py` e execute a validação com `validate.py` para garantir 100% de integridade no MS Word.
+   - **Quebras de página**: cada seção (VOTO, EMENTA) começa em página nova com seu cabeçalho (número do agravo, processo etc.) — `page_break_before` no parágrafo de cabeçalho.
+   - **Sanitize o modelo antes de usar**: remova `<w:attachedTemplate>` órfão de `settings.xml` (presente em versões antigas do modelo; causava aviso de "arquivo mal formado" no Word), bookmarks duplicados, `w:proofErr` e atributos `w14:paraId`/`w14:textId` (o Word exige unicidade global).
+   - Valide com `validate.py`, reabra com python-docx como smoke test e execute verificação OPC (todo `r:id` usado deve existir nos `.rels` do pacote).

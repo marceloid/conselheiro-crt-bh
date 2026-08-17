@@ -85,8 +85,11 @@ Sempre que for solicitado a gerar ou exportar o arquivo Word contendo a minuta (
 
 2. **Modelo Padrão de Agravos**:
    - Para minutas de Agravo, utilize o modelo oficial fornecido no repositório em `templates/modelo-agravo.docx` (caminho relativo ao repositório desta skill).
+   - **Defeito histórico corrigido (2026-08-17)**: versões anteriores do modelo traziam `<w:attachedTemplate r:id="rId1"/>` em `word/settings.xml` sem o relacionamento correspondente — o Word abria o arquivo com aviso de "arquivo mal formado" (reparável). O modelo atual já está corrigido; se utilizar um modelo antigo, remova o elemento `w:attachedTemplate` de `settings.xml` antes de gerar qualquer minuta.
 
-3. **Fluxo de Preenchimento**:
-   - Desempacote `templates/modelo-agravo.docx` com a skill `docx`.
+3. **Fluxo de Preenchimento (validado no Caso AG 1094 — 2026-08-17)**:
+   - **Prefira a API do python-docx à cirurgia de XML** (unpack/edit/pack de strings). O fluxo comprovado: abrir o modelo com `docx.Document()`, remover os parágrafos do corpo preservando o `sectPr`, e reconstruir o conteúdo por API (styles, header/footer e seção são herdados do modelo). Manipulação manual de XML + reempacotamento zip causou 3 rodadas de "arquivo mal formado" no Word mesmo com XSD/OPC aparentemente válidos.
    - Atualize os textos das seções (Relatório, Voto e Ementa), preservando a estrutura de parágrafos, cabeçalhos, números de processo (pontuados), formatação e estilos do modelo.
-   - Empacote (`pack.py`) e valide (`validate.py`) o arquivo `.docx` gerado.
+   - **Quebras de página**: cada seção (VOTO, EMENTA) deve começar em página nova com seu cabeçalho (número do agravo, processo etc.) — use `page_break_before` no parágrafo de cabeçalho.
+   - **Sanitização obrigatória dos elementos herdados do modelo** (o python-docx os preserva): remover `w:attachedTemplate` órfão de `settings.xml`, `<w:bookmarkStart/End>` duplicados, `w:proofErr` e atributos `w14:paraId`/`w14:textId` (o Word exige unicidade global desses IDs).
+   - Ao final, valide com `validate.py` e reabra com python-docx como smoke test; execute também verificação OPC (todo `r:id` usado deve existir nos `.rels`) — foi essa checagem que revelou o `attachedTemplate` órfão.
