@@ -39,6 +39,10 @@ graph TD
     B -->|Agravo contra Negativa de Seguimento| C[Carregar: references/elaboracao-minuta-agravo.md]
     B -->|Admissibilidade de Recurso Especial - REsp| D[Carregar: references/analise-admissibilidade-recurso-especial.md]
     B -->|Mérito de Recurso Especial Admitido - CER| E[Futuro: references/analise-merito-recurso-especial.md]
+    C --> F{Minuta citará jurisprudência?}
+    F -->|Sim| G[Carregar: references/pesquisa-jurisprudencial-jusratio.md]
+    F -->|Não| H[Redigir]
+    G --> H
 ```
 
 ### Arquivos de Procedimentos Específicos
@@ -51,7 +55,11 @@ graph TD
    - Para elaboração de Relatório, Voto e Ementa do Acórdão de Admissibilidade do REsp (Câmara de Presidentes sob o Decreto nº 19.460/2026) ou Despacho Monocrático (sob regulamentos anteriores).
    - Consulte o procedimento detalhado em: [`references/analise-admissibilidade-recurso-especial.md`](references/analise-admissibilidade-recurso-especial.md)
 
-3. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
+3. **Pesquisa Jurisprudencial (JusRatio/JusMCP)**:
+   - **Obrigatória antes de redigir qualquer minuta que cite jurisprudência.** Verifica conexão do MCP (com fallback HTTP), pesquisa por eixos temáticos e aplica o **gate de validação**: nenhum julgado entra no voto sem que o Relator tenha visto e aprovado (ementa verbatim + inteiro teor apresentados).
+   - Consulte o procedimento detalhado em: [`references/pesquisa-jurisprudencial-jusratio.md`](references/pesquisa-jurisprudencial-jusratio.md)
+
+4. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
    - Reservado para o procedimento de julgamento de mérito do REsp perante a Câmara Especial de Recursos.
 
 ---
@@ -61,6 +69,7 @@ graph TD
 | Norma / Fonte | Uso Típico |
 |---|---|
 | **Lei Municipal nº 1.310/1966 (CTM)** | Art. 106, I: prazo de 30 dias para impugnação de lançamento de IPTU; art. 336: aplicação subsidiária do CPC; art. 327: contagem de prazos. |
+| **Lei Municipal nº 1.310/1966 (CTM) — notificação eletrônica** | Art. 21: notificação via Decort-BH presumida 15 dias após o envio (§ 2º: leitura meramente informativa). Citar junto do art. 210, § único, do CTN em contagens de prazo. |
 | **CTN (Lei nº 5.172/1966)** | Art. 168, I: prazo quinquenal (5 anos) para restituição de indébito; Art. 173: prazo decadencial da Fazenda Pública; Art. 149: revisão de ofício. |
 | **Decreto Municipal nº 19.460/2026** | Regulamento do CART-BH (vigente). Art. 71, § 2º (escopo do agravo e remessa); Arts. 78 a 81 (admissibilidade e julgamento do REsp pela Câmara de Presidentes/CER). |
 | **Decretos nº 18.783/2024 e 18.716/2024** | Regulamentos anteriores do CART-BH. |

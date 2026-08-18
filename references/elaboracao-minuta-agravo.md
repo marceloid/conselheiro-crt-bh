@@ -70,6 +70,20 @@ Aplica-se a qualquer tributo (ITBI, IPTU, ISS, taxas etc.) quando o Fisco qualif
 3. **Afastamento do Art. 173 do CTN**: Deixar claro que o art. 173 do CTN regula a decadência do Fisco para constituir o crédito, e NÃO o prazo do contribuinte para impugnar o lançamento efetuado.
 4. **Ausência de Justa Causa**: A alegação genérica de desconhecimento sem comprovação de vício na notificação não afasta o prazo legal.
 
+#### Caso C: Notificação Eletrônica Presumida via Decort-BH — Intempestividade da Reclamação (validado no AG 1094, 2026-08-18)
+Aplica-se quando a negativa de seguimento funda-se em intempestividade da reclamação contada de **notificação eletrônica presumida** (Decort-BH / domicílio tributário eletrônico), e a agravante alega ciência posterior (data de leitura, data do auto etc.).
+
+1. **Termo inicial válido**: art. 21 da Lei nº 1.310/1966 — a notificação por domicílio eletrônico presume-se efetivada **15 dias após o envio** da mensagem à caixa postal eletrônica; a data de **leitura é meramente informativa** (§ 2º) e não repercute na contagem. Incumbe ao contribuinte o acompanhamento regular da caixa postal.
+2. **Camadas de defesa da tempestividade** (redigir em ordem escalonada — a tese da agravante deve falhar em todas):
+   a. Da notificação presumida: `envio + 15 dias` → prazo de 30 dias (arts. 106/110 CTM) → data final;
+   b. Prorrogação: vencimento em sábado/feriado prorroga ao 1º dia útil (art. 210, § único, CTN **c/c art. 327 da Lei nº 1.310/1966** — citar sempre os dois);
+   c. Ainda que tomada a data de leitura como termo (meramente informativa), o prazo expiraria antes do protocolo;
+   d. A data invocada pela agravante (ex.: "consta do auto") é a **emissão/lavratura** do auto — e a emissão não inaugura prazo.
+3. **Jurisprudência de apoio** (com ressalva de analogia): TJMG, 5ª Câmara Cível, AI-Cv nº 1369077-03.2022.8.13.0000, Rel. Des. Luís Carlos Gambogi, j. 03/11/2022 — comunicação via DT-e **pessoal para todos os efeitos legais** e, sem acesso, **presumida após o decurso do prazo legal contado do envio** (art. 144-A da Lei nº 6.763/1975). Redigir: *"ainda que trate de legislação diversa da municipal, aplicável aos tributos estaduais de Minas Gerais (Lei nº 6.763/1975 e Decreto nº 44.747/2008), a disciplina do Domicílio Tributário Eletrônico é idêntica à prevista no ordenamento de Belo Horizonte (Lei nº 1.310/1966), razão pela qual, por analogia, o mesmo entendimento se aplica ao caso"*. **Atenção**: o prazo presumido estadual é de **10 dias** (Lei 6.763/75) vs. **15 dias** municipal — ancorar a contagem na regra municipal; a diferença não conflita com a analogia.
+4. **Ementa do precedente no voto**: se o Relator aprovar, transcrever a ementa verbatim logo após o parágrafo citante (recuo 1,25 cm; abertura em negrito) — seguir gate de validação em `references/pesquisa-jurisprudencial-jusratio.md`.
+5. **Escopo parcial**: quando a negativa alcança apenas um AITI entre vários (réplica fiscal determinada quanto aos demais), registrar no voto que o exame se restringe àquele auto, sem prejuízo da ampla defesa quanto aos outros — blindagem contra alegação de cerceamento.
+6. **Cuidado com STJ**: NÃO citar a linha "informações de páginas eletrônicas são meramente informativas" (AgInt no REsp 1.682.882, EREsp 503.761/DF) — além de óbice processual (não é tese de mérito), foi **superada pela Corte Especial a partir de 2020** (EREsp 1.805.589/MT; AgInt nos EAREsp 1.630.586; EAREsp 2.743.276) — contrarreferência desfavorável.
+
 **Conclusão e Dispositivo do Voto**:
 - **Se Provido**: Cassar o despacho de negativa de seguimento, determinar o regular prosseguimento e encerrar com a fórmula obrigatória de remessa:
 > "A teor do disposto no art. 71, § 2º do Regulamento do CART-BH, aprovado pelo Decreto nº 19.460/2026, determino a remessa dos autos à unidade administrativa responsável pelo lançamento para manifestação em relação ao mérito."
