@@ -94,12 +94,14 @@ Aplica-se quando a negativa de seguimento funda-se em intempestividade da reclam
 
 ### PEÇA 3 — Ementa do Agravo
 
-**Estrutura**:
+**Estrutura** (procedimento completo, modelos de referência e checklist em [`references/criacao-ementas.md`](criacao-ementas.md)):
 - Linha 1: "EMENTA" em destaque.
-- Cabeçalho em CAIXA ALTA (palavras-chave separadas por pontos finais):
-  - *Exemplo Erro de Qualificação (Provido)*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. [TRIBUTO]. QUALIFICAÇÃO JURÍDICA DO PEDIDO INICIAL. NATUREZA MATERIAL DE RESTITUIÇÃO DE INDÉBITO. INAPLICABILIDADE DO PRAZO DE IMPUGNAÇÃO A LANÇAMENTO. PRINCÍPIO DA INSTRUMENTALIDADE DAS FORMAS. ARTS. 188, 277 E 322, § 2º, DO CPC. PRAZO QUINQUENAL (ART. 168, I, DO CTN). TEMPESTIVIDADE CONFIGURADA. RECURSO CONHECIDO E PROVIDO.`
-  - *Exemplo IPTU Desprovido*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. IPTU. IMPUGNAÇÃO A LANÇAMENTOS ANUAIS E RETROATIVOS. INTEMPESTIVIDADE. INAPLICABILIDADE DO PRAZO DECADENCIAL (ART. 173 DO CTN) PARA IMPUGNAÇÃO PELO CONTRIBUINTE. OBSERVÂNCIA DO PRAZO LEGAL DE 30 DIAS. AGRAVO CONHECIDO E DESPROVIDO.`
-- Corpo sintético resumindo a tese jurídica aplicada e o resultado do julgamento.
+- **Sumário em CAIXA ALTA abrindo com o objeto do julgamento — NÃO com o tributo** (agravo não julga mérito tributário; tributo só entra se houver norma específica determinante para a tese). Ordem: `RECURSO → OBJETO/CONTROVÉRSIA → TESE → DISPOSITIVO`; circunstâncias fáticas (tipo de auto etc.) vêm após a tese.
+  - *Exemplo Notificação Eletrônica (Desprovido)*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. NOTIFICAÇÃO ELETRÔNICA VIA DECORT-BH. NOTIFICAÇÃO PRESUMIDA APÓS QUINZE DIAS EM CAIXA POSTAL. TERMO INICIAL DO PRAZO RECLAMATÓRIO DE 30 DIAS. DATA DE LEITURA DE CARÁTER MERAMENTE INFORMATIVO. AITI. OBRIGAÇÃO ACESSÓRIA. EMISSÃO DO AUTO QUE NÃO INICIA A CONTAGEM. INTEMPESTIVIDADE CONFIGURADA. AGRAVO CONHECIDO E DESPROVIDO.`
+  - *Exemplo Erro de Qualificação (Provido)*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. QUALIFICAÇÃO JURÍDICA DO PEDIDO INICIAL. NATUREZA MATERIAL DE RESTITUIÇÃO DE INDÉBITO. INAPLICABILIDADE DO PRAZO DE IMPUGNAÇÃO A LANÇAMENTO. PRINCÍPIO DA INSTRUMENTALIDADE DAS FORMAS. ARTS. 188, 277 E 322, § 2º, DO CPC. PRAZO QUINQUENAL (ART. 168, I, DO CTN). TEMPESTIVIDADE CONFIGURADA. RECURSO CONHECIDO E PROVIDO.`
+  - *Exemplo IPTU Desprovido*: `AGRAVO CONTRA DESPACHO DE NEGATIVA DE SEGUIMENTO. IMPUGNAÇÃO A LANÇAMENTOS ANUAIS E RETROATIVOS. INTEMPESTIVIDADE. INAPLICABILIDADE DO PRAZO DECADENCIAL (ART. 173 DO CTN) PARA IMPUGNAÇÃO PELO CONTRIBUINTE. OBSERVÂNCIA DO PRAZO LEGAL DE 30 DIAS. AGRAVO CONHECIDO E DESPROVIDO.` *(IPTU aparece pela controvérsia de lançamento, não como abertura)*
+- **Corpo em bullets** (estilo súmula), um por proposição jurídica, autossuficientes e com remissão normativa quando cabível (ex.: *"Inteligência do § 2º do art. 21 c/c art. 110 da Lei nº 1.310/66"*).
+- Ao final, rodar o **checklist** de `references/criacao-ementas.md` §4.
 
 ---
 

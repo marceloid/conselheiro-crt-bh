@@ -59,7 +59,11 @@ graph TD
    - **Obrigatória antes de redigir qualquer minuta que cite jurisprudência.** Verifica conexão do MCP (com fallback HTTP), pesquisa por eixos temáticos e aplica o **gate de validação**: nenhum julgado entra no voto sem que o Relator tenha visto e aprovado (ementa verbatim + inteiro teor apresentados).
    - Consulte o procedimento detalhado em: [`references/pesquisa-jurisprudencial-jusratio.md`](references/pesquisa-jurisprudencial-jusratio.md)
 
-4. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
+4. **Criação de Ementas**:
+   - **Aplica-se à redação da ementa de qualquer acórdão/minuta (agravo, REsp).** Princípio central: a ementa abre com o **objeto do julgamento, não com o tributo** — palavras-chave devem levar o pesquisador à tese, não a circunstâncias. Contém a estrutura padrão, 3 modelos de referência verbatim (incl. negativa de seguimento por notificação eletrônica) e checklist de fechamento.
+   - Consulte o procedimento detalhado em: [`references/criacao-ementas.md`](references/criacao-ementas.md)
+
+5. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
    - Reservado para o procedimento de julgamento de mérito do REsp perante a Câmara Especial de Recursos.
 
 ---
