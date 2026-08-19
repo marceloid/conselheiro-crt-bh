@@ -21,7 +21,7 @@ Orienta a redação da **ementa** de acórdãos e minutas (agravos e REsp) do CR
 2. **Sumário em CAIXA ALTA**, palavras-chave encadeadas na ordem lógica:
    `RECURSO → OBJETO/CONTROVÉRSIA → TESE (fundamento → conclusão) → DISPOSITIVO`
    - Termina sempre com o resultado: `AGRAVO CONHECIDO E DESPROVIDO.` / `... PROVIDO.`
-   - Separadores: tanto o **travessão (–)** quanto o **ponto final (.)** aparecem nos acórdãos do CRT; mantenha um único padrão dentro da mesma ementa.
+   - Separadores: Utilize o **travessão (–)** como separador entre as palavras-chave da verbetação.
 3. **Corpo em bullets** (estilo súmula), um por proposição jurídica — cada bullet deve sustentar-se sozinho, com remissão normativa quando cabível (ex.: *"Inteligência do § 2º do art. 21 c/c art. 110 da Lei nº 1.310/66"*).
 4. **Ordem interna**: tese/objeto antes das circunstâncias (tipo de auto, obrigação acessória etc.). Exemplo AG 1094: "AITI. OBRIGAÇÃO ACESSÓRIA." fica **após** a cadeia de notificação/tempestividade, não na abertura.
 
