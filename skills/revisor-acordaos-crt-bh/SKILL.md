@@ -80,3 +80,7 @@ Consulte os arquivos de referência para a aplicação rigorosa dos critérios:
 4. **Pipeline Técnico de Redlining e Google Docs**:
    - Manipulação de arquivos `.docx` / XML, injeção de `<w:del>` e `<w:ins>`, validação e sincronização via Google Workspace API.
    - Consulte: [`references/pipeline-redlining-gdocs.md`](references/pipeline-redlining-gdocs.md)
+
+5. **Procedimento de Consulta de Atas e Pautas no DOM (PBH)**:
+   - Consulta automatizada via API pública do DOM (`https://api-dom.pbh.gov.br`) para auditoria e confronto de histórico de sorteios, pautas, suspensões e decisões em ata.
+   - Consulte: [`references/consulta-atas-dom.md`](references/consulta-atas-dom.md)
