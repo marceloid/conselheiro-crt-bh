@@ -12,7 +12,7 @@ A aplicação web do DOM consome uma API REST pública no domínio `https://api-
 
 * **Base URL:** `https://api-dom.pbh.gov.br/api`
 * **Headers Obrigatórios:**
-  * `User-Agent`: Qualquer User-Agent de navegador moderno (ex.: `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36...`). *Nota: requisições sem User-Agent válido podem ser bloqueadas pelo CDN (GoCache).*
+  * `User-Agent`: Qualquer User-Agent de navegador moderno (ex.: `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36...`). *Nota: requisições sem User-Agent válido são bloqueadas pelo CDN (GoCache).*
   * `Accept`: `application/json, text/plain, */*`
 
 ---
@@ -20,24 +20,27 @@ A aplicação web do DOM consome uma API REST pública no domínio `https://api-
 ## 2. Endpoints Principais
 
 ### A. Pesquisa de Atos por Processo ou Termo
-Permite localizar todos os atos e atas publicados que mencionam um determinado número de processo.
+Permite localizar todos os atos e atas publicados que mencionam um determinado número de processo ou razão social.
 
 * **Método:** `GET`
 * **URL:** `https://api-dom.pbh.gov.br/api/v1/edicoes/atos/pesquisar`
 * **Parâmetros de Query:**
 
-| Parâmetro | Tipo | Descrição / Valor Padrão |
-|---|---|---|
-| `termo` | string | Número do processo (ex.: `01.169550.14.08` ou `31.00188020/2023-04`) |
-| `pesquisa_exata` | boolean | `false` (permite encontrar mesmo com variações de pontuação) ou `true` |
-| `documentos[]` | array | `A` (Atos) e/ou `AA` (Anexos de Atos) |
-| `local_pesquisa[]` | array | `T` (Título) e `C` (Conteúdo do ato) |
-| `paginacao[pagina]` | integer | Página da pesquisa (padrão: `1`) |
-| `paginacao[itens_por_pagina]` | integer | Quantidade de itens por página (ex.: `20`) |
+| Parâmetro | Tipo | Valor Recomendado | Descrição |
+|---|---|---|---|
+| `termo` | string | `01.169550.14.08` | Número do processo ou razão social completa |
+| `pesquisa_exata` | boolean | **`true`** | **Recomendado `true`**: executa *phrase match* exato no Elasticsearch, eliminando falsos positivos e ruídos |
+| `documentos[]` | array | `A` e `AA` | `A` (Atos) e `AA` (Anexos de Atos) |
+| `local_pesquisa[]` | array | `T` e `C` | `T` (Título) e `C` (Conteúdo do ato) |
+| `paginacao[pagina]` | integer | `1` | Página da pesquisa |
+| `paginacao[itens_por_pagina]` | integer | `20` | Quantidade de itens por página |
 
-#### Exemplo de Requisição:
+> **Por que usar `pesquisa_exata = true`?**  
+> Com `pesquisa_exata = true`, o Elasticsearch busca a sequência exata de caracteres/dígitos do processo (mesmo com variações de ponto e barra), evitando que números isolados (ex.: `01`, `14` ou `08`) combinem com outros atos aleatórios do diário.
+
+#### Exemplo de Requisição (Busca Exata por Processo):
 ```http
-GET https://api-dom.pbh.gov.br/api/v1/edicoes/atos/pesquisar?termo=01.169550.14.08&pesquisa_exata=false&documentos[]=A&documentos[]=AA&local_pesquisa[]=T&local_pesquisa[]=C HTTP/1.1
+GET https://api-dom.pbh.gov.br/api/v1/edicoes/atos/pesquisar?termo=01.169550.14.08&pesquisa_exata=true&documentos[]=A&documentos[]=AA&local_pesquisa[]=T&local_pesquisa[]=C HTTP/1.1
 Host: api-dom.pbh.gov.br
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
 ```
@@ -98,7 +101,7 @@ Ao revisar um acórdão do CRT, execute a consulta do processo no DOM para valid
 async function consultarAtasProcesso(numeroProcesso) {
   const params = new URLSearchParams();
   params.append("termo", numeroProcesso);
-  params.append("pesquisa_exata", "false");
+  params.append("pesquisa_exata", "true"); // Busca exata para evitar ruídos
   params.append("documentos[]", "A");
   params.append("documentos[]", "AA");
   params.append("local_pesquisa[]", "T");
