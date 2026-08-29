@@ -15,8 +15,9 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
 
 ## 2. Regras de Ouro da Secretaria e Presidência (CRÍTICAS)
 
-1. **Modo Sugestão Obrigatório (Redlining / Tracked Changes)**:
-   - **NUNCA** edite diretamente o conteúdo de um documento sem que a alteração fique gravada no formato de revisão rastreada (`<w:del>` / `<w:ins>`), identificada com o nome do usuário.
+1. **Modo Sugestão Obrigatório (Redlining / Tracked Changes) & Justificativa em Comentários**:
+   - **NUNCA** edite diretamente o conteúdo de um documento sem que a alteração fique gravada no formato de revisão rastreada (`<w:del>` / `<w:ins>`), identificada com o nome do usuário/revisor.
+   - **Comentários Obrigatórios em Cada Sugestão**: Toda e qualquer intervenção, correção ou exclusão **DEVE VIR OBRIGATORIAMENTE ACOMPANHADA DE UM COMENTÁRIO (`<w:comment>`)** anexado ao trecho revisado, contendo a justificativa formal, técnica e gramatical da alteração proposta (ex.: *"Correção ortográfica"*, *"Padronização de denominação institucional (JJT/CRT)"*, *"Adequação da citação de lei federal"*, *"Saneamento estrutural de duplicação no relatório"*, *"Ajuste da ementa aos padrões JusRatio do CRT"*).
 2. **Intervenção Mínima**:
    - Respeite o estilo e a redação do Relator e dos Conselheiros.
    - Limite-se a:
@@ -49,14 +50,17 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
 ```mermaid
 graph TD
     A[Recebimento do Documento - Link Google Docs ou .docx] --> B[Download do Arquivo & Extração do Texto]
+```mermaid
+graph TD
+    A[Recebimento do Documento - Link Google Docs ou .docx] --> B[Download do Arquivo & Extração do Texto]
     B --> C[Auditoria do Cabeçalho: Pauta, Partes, Patronos e Retirada do Assunto]
     C --> D[Auditoria do Relatório & Identificação de Transcrição JJT]
     D --> E[Auditoria dos Votos: Relator, Divergentes e Vencedor]
     E --> F[Auditoria da Ementa: 6 Níveis de Palavras-Chave, Teses e Fecho]
     F --> G[Auditoria do Acórdão e Certidão: Quórum, Voto de Qualidade, Presidência e Sustentação Oral]
     G --> H[Apresentação do Resumo do Julgamento e Teses ao Usuário]
-    H --> I[Aplicação das Sugestões no .docx em Modo Redlining]
-    I --> J[Validação OpenXML com validate.py & Upload ao Google Drive]
+    H --> I[Aplicação das Sugestões no .docx em Modo Redlining com Comentários de Justificativa]
+    I --> J[Validação OpenXML com validate.py / LibreOffice & Upload ao Google Drive]
 ```
 
 ---
