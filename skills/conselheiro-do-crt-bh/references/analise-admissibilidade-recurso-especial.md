@@ -19,7 +19,45 @@ Este procedimento orienta a elaboração de minutas para a **Análise de Admissi
 
 ---
 
-## 2. Requisitos Formais e Substanciais de Admissibilidade do REsp
+## 2. Fluxo Operacional de Análise e Obtenção dos Acórdãos
+
+Quando o usuário iniciar a demanda indicando a necessidade de análise de admissibilidade de REsp:
+
+### Passo 1: Obtenção dos Documentos e Download Automático
+- Se o usuário não anexar ou fornecer a íntegra dos acórdãos (recorrido e paradigma), o agente deve obtê-los diretamente do repositório oficial do CART-BH.
+- **Padrão da URL**: `https://fazenda.pbh.gov.br/cart/acordao/AC{NUMERO_SEM_PONTUACAO}.pdf`
+  - *Exemplo*: para o Acórdão nº 10.018, a URL é `https://fazenda.pbh.gov.br/cart/acordao/AC10018.pdf`; para o Acórdão nº 9.876, a URL é `https://fazenda.pbh.gov.br/cart/acordao/AC9876.pdf`.
+- **Requisito Técnico de Download (WAF/CDN GoCache)**:
+  - O portal da Fazenda PBH é protegido por GoCache. Toda requisição HTTP/curl deve obrigatoriamente incluir um cabeçalho `User-Agent` de navegador (ex.: `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36`) para evitar bloqueio por HTTP 403 Forbidden.
+
+### Passo 2: Extração e Resumo dos Acórdãos (Gate de Validação Obrigatório)
+Após a leitura e extração do inteiro teor dos acórdãos, **o agente DEVE apresentar ao usuário um resumo estruturado de cada acórdão e a análise preliminar da divergência antes de redigir qualquer minuta definitiva**.
+
+O resumo para validação deve conter os seguintes tópicos:
+
+1. **Resumo do Acórdão Recorrido**:
+   - **Identificação**: Número do Acórdão, Câmara Julgadora, Relator(a), PTA/Processo e Data do Julgamento.
+   - **Moldura Fática e Tributo**: Situação concreta analisada e tributo em discussão.
+   - **Tese Jurídica Adotada (*Ratio Decidendi*)**: Interpretação conferida à legislação municipal de regência.
+   - **Dispositivo**: Resultado do julgamento na origem.
+
+2. **Resumo do Acórdão Paradigma**:
+   - **Identificação**: Número do Acórdão, Câmara Julgadora, Relator(a), PTA/Processo e Data do Julgamento.
+   - **Moldura Fática e Tributo**: Situação concreta analisada e tributo em discussão.
+   - **Tese Jurídica Adotada (*Ratio Decidendi*)**: Interpretação conferida à legislação municipal de regência.
+   - **Dispositivo**: Resultado do julgamento paradigma.
+
+3. **Cotejo Analítico Preliminar da Divergência**:
+   - **Similitude Fática**: Demonstração de que ambos os acórdãos versam sobre a mesma hipótese/premissa fática.
+   - **Dissenso Jurídico**: Ponto exato de divergência quanto à aplicação da norma tributária municipal.
+   - **Verificação de Vedações**: Checagem quanto ao reexame fático-probatório (art. 78, § 3º) ou contrariedade a súmula da CER (art. 78, § 4º).
+   - **Conclusão Preliminar**: Indicação técnica preliminar sobre o cabimento (conhecimento/admissibilidade ou não conhecimento).
+
+> **Aguardar Validação**: O agente deve submeter essa estrutura para que o Conselheiro/usuário valide as premissas e a tese antes de iniciar a redação do Relatório, Voto e Ementa.
+
+---
+
+## 3. Requisitos Formais e Substanciais de Admissibilidade do REsp
 
 A análise de admissibilidade do REsp deve verificar rigorosamente os seguintes requisitos:
 
@@ -38,7 +76,7 @@ A análise de admissibilidade do REsp deve verificar rigorosamente os seguintes 
 
 ---
 
-## 3. Estrutura das Peças de Admissibilidade (Decreto nº 19.460/2026)
+## 4. Estrutura das Peças de Admissibilidade (Decreto nº 19.460/2026)
 
 ### PEÇA 1 — Relatório de Admissibilidade do REsp
 
@@ -89,6 +127,6 @@ A análise de admissibilidade do REsp deve verificar rigorosamente os seguintes 
 
 ---
 
-## 4. Reserva para Expansão Futura
+## 5. Reserva para Expansão Futura
 
 > 📌 **Nota de Arquitetura**: A análise de mérito do REsp admitido (julgamento pela Câmara Especial de Recursos — CER) será regulada em procedimento próprio no arquivo `references/analise-merito-recurso-especial.md`.

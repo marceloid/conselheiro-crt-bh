@@ -53,6 +53,7 @@ graph TD
 
 2. **Análise de Admissibilidade de Recurso Especial (REsp)**:
    - Para elaboração de Relatório, Voto e Ementa do Acórdão de Admissibilidade do REsp (Câmara de Presidentes sob o Decreto nº 19.460/2026) ou Despacho Monocrático (sob regulamentos anteriores).
+   - Inclui o download automático de acórdãos do repositório oficial do CART-BH (`https://fazenda.pbh.gov.br/cart/acordao/AC{numero}.pdf`) e o **gate obrigatório de validação prévia** (apresentação de resumo estruturado de cada acórdão e cotejo analítico antes da redação das peças).
    - Consulte o procedimento detalhado em: [`references/analise-admissibilidade-recurso-especial.md`](references/analise-admissibilidade-recurso-especial.md)
 
 3. **Pesquisa Jurisprudencial (JusRatio/JusMCP)**:
