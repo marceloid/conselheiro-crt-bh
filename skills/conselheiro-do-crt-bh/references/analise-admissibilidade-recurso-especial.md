@@ -55,6 +55,12 @@ O resumo para validação deve conter os seguintes tópicos:
 
 > **Aguardar Validação**: O agente deve submeter essa estrutura para que o Conselheiro/usuário valide as premissas e a tese antes de iniciar a redação do Relatório, Voto e Ementa.
 
+### Passo 3: Elaboração da Minuta e Geração do Documento Word (.docx)
+Após a validação das premissas pelo usuário, o agente deve:
+1. Redigir a minuta integral composta por **Relatório**, **Voto** e **Ementa**, conforme as regras estritas de estilo e terminologia (sem metalinguagem, primeira pessoa do singular do Relator, PTA pontuado).
+2. Atualizar a nota correspondente no Obsidian do usuário.
+3. **Gerar obrigatoriamente o arquivo Word (.docx)** formatado com base no modelo oficial do CRT-BH (`templates/modelo-agravo.docx`), utilizando a API do `python-docx` para herdar timbres oficiais, cabeçalhos, rodapés, estilos e quebras de página por seção (VOTO e EMENTA iniciando em nova página com seus respectivos cabeçalhos). Salvar o arquivo gerado na pasta de minutas e na pasta de Downloads do usuário.
+
 ---
 
 ## 3. Requisitos Formais e Substanciais de Admissibilidade do REsp
