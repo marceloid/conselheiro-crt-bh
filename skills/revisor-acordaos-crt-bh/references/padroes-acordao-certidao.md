@@ -11,6 +11,7 @@ Este guia reúne as fórmulas textuais e padrões oficiais homologados pela Secr
    - Espaçamento: simples entre linhas, sem espaçamento antes/depois.
    - Recuo: 1 cm na primeira linha de cada parágrafo.
 2. **Requisitos de Conteúdo Obrigatórios**:
+   - **Conselho de Recursos Tributários sem Sigla**: No preâmbulo do Acórdão (*"acorda a [Xª] Câmara do Conselho de Recursos Tributários, na reunião do dia..."*) e na Certidão, **NUNCA apor a sigla `(CRT)` nem `(-BH)`** após a expressão *Conselho de Recursos Tributários*.
    - **Data da conclusão** do julgamento (reunião do dia DD de MÊS de AAAA).
    - **Quórum da decisão**: Indicar expressamente se a decisão foi **à unanimidade**, **por maioria** ou **pelo voto de qualidade**.
    - **Ordem de Votação**: Os nomes dos Conselheiros devem figurar estritamente na **ordem cronológica em que proferiram seus votos** na sessão (conforme controle de votos da ata).
