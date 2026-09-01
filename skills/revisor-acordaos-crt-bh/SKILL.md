@@ -34,6 +34,7 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
    - O Conselho é sempre referenciado apenas como **CRT** (sem "-BH", ex.: `Conselho de Recursos Tributários (CRT)`, `Secretaria do CRT`).
    - A sigla **CART-BH** aplica-se exclusivamente ao Conselho Administrativo de Recursos Tributários do Município de Belo Horizonte.
    - **Nunca** utilize o termo "Corte" para se referir ao CRT ou tribunais judiciais.
+   - **No Acórdão e na Certidão**: No texto formal do Acórdão (*"acorda a Xª Câmara do Conselho de Recursos Tributários..."*) e na Certidão de Julgamento, utilize sempre o nome por extenso **sem a aposição da sigla `(CRT)`**.
 6. **Flexão de Gênero Exata nos Cargos**:
    - Utilize sempre `Relator` ou `Redator` para homens, e `Relatora` ou `Redatora` para mulheres (nunca use a forma ambígua `(a)`).
 7. **Limpeza do Campo "Assunto" dos Cabeçalhos**:

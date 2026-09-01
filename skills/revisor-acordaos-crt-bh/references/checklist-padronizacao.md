@@ -81,7 +81,8 @@ Relator: Dr. [Nome]  (ou Relatora: Dra. [Nome])
 | **Imposto sobre Transmissão de Bens Imóveis** | `Imposto sobre a Transmissão de Bens Imóveis por Ato Oneroso "Inter Vivos" (ITBI)` | `ITBI` |
 | **Imposto sobre Serviços** | `Imposto sobre Serviços de Qualquer Natureza (ISSQN)` | `ISSQN` |
 
-> **Regra de Formato das Siglas**: Use **sempre parênteses** `(SIGLA)` quando acompanhada do nome por extenso. O travessão `-` só deve ser mantido se o texto original do autor o tiver empregado uniformemente em todo o documento.
+> **Regra de Formato das Siglas**: Use **sempre parênteses** `(SIGLA)` quando acompanhada do nome por extenso no Relatório e no Voto. O travessão `-` só deve ser mantido se o texto original do autor o tiver empregado uniformemente em todo o documento.  
+> **Exceção do Acórdão e da Certidão**: No texto do Acórdão (*"Vistos, relatados e discutidos os autos, acorda a Xª Câmara do Conselho de Recursos Tributários..."*) e na Certidão de Julgamento, utilize sempre o nome por extenso **sem a aposição da sigla `(CRT)`**, preservando a fórmula clássica oficial.
 
 ---
 
