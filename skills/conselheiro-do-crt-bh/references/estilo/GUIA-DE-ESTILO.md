@@ -148,6 +148,8 @@ Este guia foi extraído a partir de acórdãos do Conselheiro Relator João Marc
 - **Sentenças fragmentadas** — cada período deve ser gramaticalmente completo
 - **Informalidade** — nunca "o cara", "o sujeito", "o fulano"; sempre "o contribuinte", "o Recorrente", "o Agravante"
 - **Ênfase excessiva com negrito** — negrito apenas na decisão e nos títulos de seção
+- **"Provimento" em Reexame Necessário / Remessa de Ofício** — reexame não é recurso; nunca "dar provimento ao reexame", mas sim "reformar/manter a decisão a quo em sede de reexame necessário"
+- **Juízo de tempestividade no Relatório** — nunca qualificar recurso como "tempestivo" ou "intempestivo" no Relatório; limitar-se a indicar as datas de notificação/publicação e de protocolo (a tempestividade é matéria exclusiva do Voto)
 
 ---
 
