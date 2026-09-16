@@ -151,6 +151,8 @@ Este guia foi extraído a partir de acórdãos do Conselheiro Relator João Marc
 - **"Provimento" em Reexame Necessário / Remessa de Ofício** — reexame não é recurso; nunca "dar provimento ao reexame", mas sim "reformar/manter a decisão a quo em sede de reexame necessário"
 - **Juízo de tempestividade no Relatório** — nunca qualificar recurso como "tempestivo" ou "intempestivo" no Relatório; limitar-se a indicar as datas de notificação/publicação e de protocolo (a tempestividade é matéria exclusiva do Voto)
 - **Omissão de trechos de ementas no Relatório de REsp** — em relatórios de Recursos Especiais, é obrigatório transcrever literalmente os trechos das ementas (com a verbetação/cabeçalho) do acórdão recorrido e do paradigma, limitando-se ao ponto da divergência admitida
+- **Adjetivos e advérbios hiperbólicos ou exagerados** — evitar "desenganadamente", "extraordinariamente", "umbilicalmente", "absoluta", "barreira intransponível", "peremptoriamente", "flagrante", "gritante"; empregar linguagem estritamente sóbria, neutra e objetiva
+- **"Versam os autos" no início do Voto de REsp** — no voto de Recurso Especial perante a CER, nunca iniciar com "Versam os autos"; abrir delimitando diretamente o objeto do contencioso e remetendo o cabimento ao despacho irrecorrível da Presidência da Câmara de origem, com assentamento da preclusão dos capítulos rejeitados
 
 ---
 

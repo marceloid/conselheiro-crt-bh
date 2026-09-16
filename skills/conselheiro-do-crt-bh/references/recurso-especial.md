@@ -24,15 +24,22 @@
 
 ---
 
-## 3. Estrutura do Voto — Seções Obrigatórias
+## 3. Estrutura do Voto de Mérito na CER — Seções Obrigatórias
 
-1. **Abertura do Voto**
-2. **Da Delimitação do Objeto Recursal (Efeito Devolutivo Restrito à Admissibilidade)**: Quando a admissibilidade for parcial, assentar a preclusão dos capítulos rejeitados.
-3. **Da Tempestividade, Legitimidade e Representação**: Análise técnica dos prazos e pressupostos processuais.
+1. **Abertura do Voto (Delimitação Direta do Objeto — Sem "Versam os autos")**:
+   - Nunca iniciar com "Versam os autos".
+   - Abrir delimitando diretamente o objeto do contencioso: apreciação do mérito do Recurso Especial (número e partes) contra o acórdão recorrido da Câmara de origem.
+2. **Da Delimitação do Objeto Recursal e Vinculação ao Despacho Irrecorrível de Admissibilidade**:
+   - Registrar que a cognição da CER subordina-se estritamente ao despacho de admissibilidade proferido pelo Presidente da Câmara de origem (art. 68 do Decreto nº 18.783/2024 / art. 81 do Decreto nº 19.460/2026).
+   - Assentar a natureza irrecorrível desse ato e a consequente preclusão consumativa dos tópicos recursais rejeitados.
+   - Afastar preliminares fazendárias de não conhecimento que busquem reabrir o juízo de admissibilidade perante o Colegiado de mérito.
+3. **Sobriedade e Neutralidade Linguística**:
+   - Redação despida de adjetivação hiperbólica ou emotiva (evitar "desenganadamente", "extraordinariamente", "umbilicalmente", "absoluta", "peremptoriamente"). Manter tom sereno, técnico e direto.
 4. **Do Mérito (Uniformização da Legislação Tributária Municipal)**:
-   - Exame do critério normativo de subsunção / divergência admitida.
+   - Exame do critério normativo de subsunção / confronto analítico com o paradigma.
+   - Exame detalhado das cláusulas contratuais e da unidade material do negócio jurídico.
    - Aplicação da legislação e jurisprudência consolidada.
-5. **Conclusão e Dispositivo**: Provimento ou desprovimento do REsp.
+5. **Conclusão e Dispositivo**: Voto formal pelo provimento ou desprovimento do REsp.
 
 ---
 
