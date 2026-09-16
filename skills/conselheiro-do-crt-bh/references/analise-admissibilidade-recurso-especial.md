@@ -91,9 +91,9 @@ A análise de admissibilidade do REsp deve verificar rigorosamente os seguintes 
 
 **Estrutura do Conteúdo**:
 1. **Identificação**: Data de interposição do REsp, processo BH Digital, nome da parte em maiúsculas, número e câmara do acórdão recorrido e do processo original.
-2. **Síntese da Matéria Decidida no Acórdão Recorrido**: Resumo do entendimento adotado pela Câmara de Julgamento de origem.
-3. **Razões do REsp e Acórdão Paradigma Invocado**: Tese defendida pelo recorrente, indicação do acórdão paradigma (número e câmara) e o ponto exato de divergência alegado na aplicação da legislação tributária.
-4. **Tempestividade e Dados de Intimação**: Registrar a data de publicação do acórdão recorrido no DOM e a data do protocolo do REsp.
+2. **Síntese da Matéria Decidida no Acórdão Recorrido e Transcrição da Ementa**: Resumo do entendimento adotado pela Câmara de Julgamento de origem, com a reprodução literal do trecho da ementa (incluindo a verbetação/cabeçalho) restrito ao ponto controvertido da divergência apontada.
+3. **Razões do REsp e Acórdão Paradigma Invocado com Transcrição da Ementa**: Tese defendida pelo recorrente, indicação do acórdão paradigma (número e câmara) e reprodução literal do trecho da ementa (com a respectiva verbetação) concernente ao capítulo de divergência na aplicação da legislação tributária.
+4. **Marcos Temporais e Dados de Intimação (Sem Juízo de Tempestividade)**: Registrar estritamente as datas dos fatos processuais (data de publicação do acórdão recorrido no DOM e data do protocolo do REsp), vedada qualquer valoração sobre tempestividade no Relatório (matéria do Voto).
 5. **Manifestação da Parte Recorrida / Contrarrazões**: Registrar expressamente se a parte contrária (Fisco ou Contribuinte) apresentou contrarrazões ao REsp ou se decorreu *in albis* / não se manifestou (ex.: *"Devidamente intimado/a para se manifestar, o/a Recorrido/a não apresentou contrarrazões, decorrendo in albis o prazo regulamentar."* ou *"O/A Recorrido/a apresentou contrarrazões no Ato X, pugnando pela manutenção do acórdão recorrido."*).
 6. **Encerramento**: **"É o relatório."**
 

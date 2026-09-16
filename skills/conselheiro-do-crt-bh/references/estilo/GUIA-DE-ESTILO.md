@@ -150,6 +150,7 @@ Este guia foi extraído a partir de acórdãos do Conselheiro Relator João Marc
 - **Ênfase excessiva com negrito** — negrito apenas na decisão e nos títulos de seção
 - **"Provimento" em Reexame Necessário / Remessa de Ofício** — reexame não é recurso; nunca "dar provimento ao reexame", mas sim "reformar/manter a decisão a quo em sede de reexame necessário"
 - **Juízo de tempestividade no Relatório** — nunca qualificar recurso como "tempestivo" ou "intempestivo" no Relatório; limitar-se a indicar as datas de notificação/publicação e de protocolo (a tempestividade é matéria exclusiva do Voto)
+- **Omissão de trechos de ementas no Relatório de REsp** — em relatórios de Recursos Especiais, é obrigatório transcrever literalmente os trechos das ementas (com a verbetação/cabeçalho) do acórdão recorrido e do paradigma, limitando-se ao ponto da divergência admitida
 
 ---
 
