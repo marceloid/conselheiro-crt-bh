@@ -43,7 +43,7 @@ graph TD
     A[Recebimento da Demanda Tributária CRT-BH] --> B{Qual é o objeto/recurso?}
     B -->|Agravo contra Negativa de Seguimento| C[Carregar: references/elaboracao-minuta-agravo.md]
     B -->|Admissibilidade de Recurso Especial - REsp| D[Carregar: references/analise-admissibilidade-recurso-especial.md]
-    B -->|Mérito de Recurso Especial Admitido - CER| E[Futuro: references/analise-merito-recurso-especial.md]
+    B -->|Mérito de Recurso Especial Admitido - CER| E[Carregar: references/analise-merito-recurso-especial.md]
     C --> F{Minuta citará jurisprudência?}
     F -->|Sim| G[Carregar: references/pesquisa-jurisprudencial-jusratio.md]
     F -->|Não| H[Redigir]
@@ -69,8 +69,10 @@ graph TD
    - **Aplica-se à redação da ementa de qualquer acórdão/minuta (agravo, REsp).** Princípio central: a ementa abre com o **objeto do julgamento, não com o tributo** — palavras-chave devem levar o pesquisador à tese, não a circunstâncias. Contém a estrutura padrão, 3 modelos de referência verbatim (incl. negativa de seguimento por notificação eletrônica) e checklist de fechamento.
    - Consulte o procedimento detalhado em: [`references/criacao-ementas.md`](references/criacao-ementas.md)
 
-5. **Análise de Mérito de Recurso Especial Admitido (CER)** *(Em expansão)*:
-   - Reservado para o procedimento de julgamento de mérito do REsp perante a Câmara Especial de Recursos.
+5. **Análise de Mérito de Recurso Especial Admitido (CER)**:
+   - Para elaboração de Relatório, Voto e Ementa no julgamento de mérito do REsp perante a Câmara Especial de Recursos (CER).
+   - Abrange o fluxo completo em 5 passos: triagem e delimitação da divergência admitida, relatório de mérito com transcrição literal de ementas e ressalva de irrecorribilidade do paradigma, voto de mérito com abertura direta (sem *"Versam os autos"*), fundamentação de direito intertemporal (quando o recurso for anterior ao Decreto nº 19.460/2026), enfrentamento dialético do despacho de admissibilidade, linguagem sóbria sem hipérboles, ementa oficial e geração de `.docx` compatível com Google Docs.
+   - Consulte o procedimento detalhado em: [`references/analise-merito-recurso-especial.md`](references/analise-merito-recurso-especial.md)
 
 ---
 
