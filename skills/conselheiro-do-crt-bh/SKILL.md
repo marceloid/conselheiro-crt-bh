@@ -112,3 +112,14 @@ Sempre que for solicitado a gerar ou exportar o arquivo Word contendo a minuta (
    - **Quebras de página**: cada seção (VOTO, EMENTA) deve começar em página nova com seu cabeçalho (número do agravo, processo etc.) — use `page_break_before` no parágrafo de cabeçalho.
    - **Sanitização obrigatória dos elementos herdados do modelo** (o python-docx os preserva): remover `w:attachedTemplate` órfão de `settings.xml`, `<w:bookmarkStart/End>` duplicados, `w:proofErr` e atributos `w14:paraId`/`w14:textId` (o Word exige unicidade global desses IDs).
    - Ao final, valide com `validate.py` e reabra com python-docx como smoke test; execute também verificação OPC (todo `r:id` usado deve existir nos `.rels`) — foi essa checagem que revelou o `attachedTemplate` órfão.
+
+4. **Compatibilidade Estrita com Google Docs (Prevenção do Erro "Não foi possível abrir o arquivo") — Validado no Caso REsp 182 (2026-09-18)**:
+   - **Causa Raiz do Erro no Google Docs**: Enquanto o Microsoft Word e o LibreOffice abrem arquivos com cabeçalhos órfãos sem acusar falhas (ignorando-os silenciosamente), o importador do Google Docs é extremamente rigoroso. Se o `.docx` contiver referências em `<w:sectPr>` a cabeçalhos ou rodapés pares (`even`) ou de primeira página (`first`) associados a relacionamentos múltiplos ou desbalanceados (`header2.xml`, `header3.xml`, `footer3.xml`), o Google Docs aborta a conversão exibindo o erro fatal *"Não foi possível abrir o arquivo. Tente atualizar a página."*
+   - **Padrão Estrutural Obrigatório**:
+     1. **Seção Limpa (`<w:sectPr>`)**: O `<w:sectPr>` deve conter exclusivamente uma referência de cabeçalho padrão (`<w:headerReference w:type="default" r:id="rId8"/>` mapeado para `header1.xml`) e duas referências de rodapé (`footer1.xml` para `even` e `footer2.xml` para `default`).
+     2. **Remoção de Cabeçalhos e Rodapés Fantasmas**: O arquivo `.docx` nunca deve conter partes órfãs como `header2.xml`, `header3.xml`, `footer3.xml` ou seus respectivos `.rels`. Se presentes no modelo ou gerados inadvertidamente, devem ser purgados do arquivo zip e das relações de `document.xml.rels` e `[Content_Types].xml`.
+     3. **Relacionamento da Imagem Institucional**: O arquivo `word/_rels/header1.xml.rels` deve existir obrigatoriamente e conter a relação da imagem do brasão/timbre institucional: `<Relationship Id="rId1" Type=".../relationships/image" Target="media/image1.png"/>`.
+     4. **Checklist de Validação**:
+        - Validação XSD via `validate.py` (deve retornar `All validations PASSED!`);
+        - Verificação de ausência de partes `header2`/`header3`/`footer3` no pacote zip;
+        - Smoke test de renderização e integridade via LibreOffice headless.

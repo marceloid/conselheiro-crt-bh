@@ -60,6 +60,7 @@ Após a validação das premissas pelo usuário, o agente deve:
 1. Redigir a minuta integral composta por **Relatório**, **Voto** e **Ementa**, conforme as regras estritas de estilo e terminologia (sem metalinguagem, primeira pessoa do singular do Relator, PTA pontuado).
 2. Atualizar a nota correspondente no Obsidian do usuário.
 3. **Gerar obrigatoriamente o arquivo Word (.docx)** formatado com base no modelo oficial do CRT-BH (`templates/modelo-agravo.docx`), utilizando a API do `python-docx` para herdar timbres oficiais, cabeçalhos, rodapés, estilos e quebras de página por seção (VOTO e EMENTA iniciando em nova página com seus respectivos cabeçalhos). Salvar o arquivo gerado na pasta de minutas e na pasta de Downloads do usuário.
+4. **Garantir Compatibilidade com Google Docs**: Assegurar que o arquivo `.docx` gerado não contenha cabeçalhos ou rodapés órfãos (`header2.xml`, `header3.xml`, `footer3.xml`), mantendo o `<w:sectPr>` estritamente com `header1.xml` (default) e `footer1`/`footer2`, para evitar o erro fatal *"Não foi possível abrir o arquivo"* no Google Docs. Validar via `validate.py`.
 
 ---
 
