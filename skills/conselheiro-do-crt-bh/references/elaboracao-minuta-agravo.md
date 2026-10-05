@@ -19,6 +19,8 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 
 ### PEÇA 1 — Relatório do Agravo
 
+#### A. Relatório Originário (Primeira Sessão de Julgamento)
+
 **Abertura Padrão (Obrigatória)** — usar uma das duas formas abaixo:
 > **Opção 1**: "Trata-se de Agravo interposto em [DATA], por meio do [PROCESSO BH DIGITAL Nº / ou sem referência se não houver], por [NOME EM MAIÚSCULAS], contra Despacho de Negativa de Seguimento exarado nos autos do processo administrativo nº [Nº], por meio do qual o Recorrente postulava [objeto da reclamação]."
 >
@@ -32,6 +34,18 @@ Siga a sequência abaixo conforme as solicitações do usuário:
 5. **Manifestação do Fisco / Contrarrazões**: Registrar expressamente se a autoridade fazendária apresentou contrarrazões ao recurso de agravo ou se não se manifestou (ex.: *"Notificado a se manifestar acerca do recurso, o Fisco não apresentou contrarrazões, limitando-se a ratificar o despacho de negativa de seguimento (Ato X)."* ou *"A autoridade fazendária apresentou contrarrazões no Ato X, sustentando a manutenção da decisão recorrida."*).
 6. **Pedido Final**: Síntese do pedido feito na peça de agravo.
 7. **Encerramento**: **"É o relatório."**
+
+#### B. Relatório Complementar (Retorno de Julgamento após Diligência)
+
+Quando o relatório já houver sido lido e apresentado em sessão anterior na qual o julgamento foi convertido em diligência, no retorno dos autos para conclusão do julgamento elabora-se apenas um **Relatório Complementar**.
+
+**Abertura e Estrutura**:
+1. **Abertura destacando o relato anterior**: Iniciar consignando que o processo já foi relatado na sessão de julgamento de [DATA], oportunidade em que esta Câmara de Presidentes deliberou pela conversão do feito em diligência (Ato [Nº]).
+2. **Síntese enxuta da controvérsia originária**: Em um único parágrafo sucinto, recordar o objeto do recurso (ex.: agravo contra negativa de seguimento de reclamação que postulava revisão de ITBI com esteio em laudo técnico/valor de transação, indeferida por suposta intempestividade).
+3. **Questionamentos da diligência**: Delimitar com exatidão os pontos determinados ao órgão fazendário (ex.: comprovação da notificação do lançamento nos moldes regulamentares e esclarecimento do meio de comunicação e da data da efetiva ciência).
+4. **Respostas e esclarecimentos prestados pelo Fisco**: Sintetizar as informações apresentadas no cumprimento da diligência (Ato [Nº]).
+5. **Intimação das partes e resultado**: Registrar a notificação/intimação das partes para manifestação sobre a diligência e certificar se houve ou não resposta.
+6. **Encerramento**: **"É o relatório complementar."** ou **"É o relatório."**
 
 ---
 
