@@ -16,7 +16,7 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
 ## 2. Regras de Ouro da Secretaria e Presidência (CRÍTICAS)
 
 1. **Modo Sugestão Obrigatório (Redlining / Tracked Changes) & Justificativa em Comentários**:
-   - **NUNCA** edite diretamente o conteúdo de um documento sem que a alteração fique gravada no formato de revisão rastreada (`<w:del>` / `<w:ins>`), identificada com o nome do usuário/revisor.
+   - **NUNCA** edite diretamente o conteúdo de um documento sem que a alteração fique gravada no formato de revisão rastreada (`<w:del>` / `<w:ins>`), identificada com o nome do revisor (padrão oficial: `Revisor IA CRT-BH` ou nome do usuário quando solicitado).
    - **Comentários Obrigatórios em Cada Sugestão**: Toda e qualquer intervenção, correção ou exclusão **DEVE VIR OBRIGATORIAMENTE ACOMPANHADA DE UM COMENTÁRIO (`<w:comment>`)** anexado ao trecho revisado, contendo a justificativa formal, técnica e gramatical da alteração proposta (ex.: *"Correção ortográfica"*, *"Padronização de denominação institucional (JJT/CRT)"*, *"Adequação da citação de lei federal"*, *"Saneamento estrutural de duplicação no relatório"*, *"Ajuste da ementa aos padrões JusRatio do CRT"*).
 2. **Intervenção Mínima**:
    - Respeite o estilo e a redação do Relator e dos Conselheiros.
