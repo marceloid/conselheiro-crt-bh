@@ -41,8 +41,12 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
    - Ao conferir as informações da pauta, o campo "Assunto" deve ser **suprimido** do cabeçalho definitivo do acórdão e dos votos.
 8. **Matéria Incontroversa (Réplicas Fiscais)**:
    - Tudo o que o Fisco concordou expressamente no curso da discussão administrativa passa a ser matéria não contenciosa e não deve ser objeto de reforma prejudicial.
-9. **Validação Ativa com o Usuário**:
-   - Sempre apresente um resumo executivo do voto condutor para que o usuário valide se as teses refletem com exatidão o julgamento colegiado.
+9. **Confronto Obrigatório da Tese Vencedora com a Ementa (Matriz de Aderência)**:
+   - **Extração da Ratio Decidendi:** O revisor deve isolar com precisão o voto condutor do julgamento (seja da Relatoria originária ou da Redatoria designada em caso de divergência vencedora) e sintetizar as teses determinantes em 2 a 4 proposições claras e nucleares.
+   - **Aplicação dos 4 Testes de Validação:** Submeter obrigatoriamente a minuta aos testes de *Cobertura Integral*, *Não-Contaminação*, *Abstração Normativa* e *Coerência de Fecho*.
+   - **Matriz Comparativa no Relatório:** Apresentar obrigatoriamente no relatório de revisão a tabela comparativa: `| Ponto Decidido no Voto Vencedor (Ratio Decidendi) | Enunciado na Ementa Original | Diagnóstico de Aderência | Sugestão de Ajuste (Padrão CRT) |`.
+10. **Validação Ativa com o Usuário**:
+   - Sempre apresente o resumo executivo do voto condutor e a matriz de confronto para que o usuário valide se as teses refletem com exatidão o julgamento colegiado antes de dar o documento por finalizado.
 
 ---
 
@@ -53,12 +57,13 @@ graph TD
     A[Recebimento do Documento - Link Google Docs ou .docx] --> B[Download do Arquivo & Extração do Texto]
     B --> C[Auditoria do Cabeçalho: Pauta, Partes, Patronos e Retirada do Assunto]
     C --> D[Auditoria do Relatório & Identificação de Transcrição JJT]
-    D --> E[Auditoria dos Votos: Relator, Divergentes e Vencedor]
-    E --> F[Auditoria da Ementa: 6 Níveis de Palavras-Chave, Teses e Fecho]
-    F --> G[Auditoria do Acórdão e Certidão: Quórum, Voto de Qualidade, Presidência e Sustentação Oral]
-    G --> H[Apresentação do Resumo do Julgamento e Teses ao Usuário]
-    H --> I[Aplicação das Sugestões no .docx em Modo Redlining com Comentários de Justificativa]
-    I --> J[Validação OpenXML com validate.py / LibreOffice & Upload ao Google Drive]
+    D --> E[Auditoria dos Votos: Identificação do Voto Vencedor & Ratio Decidendi]
+    E --> F[Confronto Analítico: Matriz de Aderência Tese Vencedora vs. Ementa]
+    F --> G[Auditoria e Ajuste da Ementa: 6 Níveis de Palavras-Chave, Teses Abstratas e Fecho]
+    G --> H[Auditoria do Acórdão e Certidão: Quórum, Voto de Qualidade, Presidência e Sustentação Oral]
+    H --> I[Apresentação do Relatório com Matriz de Confronto ao Usuário]
+    I --> J[Aplicação das Sugestões no .docx em Modo Redlining com Comentários de Justificativa]
+    J --> K[Validação OpenXML com validate.py / LibreOffice & Upload ao Google Drive]
 ```
 
 ---
