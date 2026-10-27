@@ -51,9 +51,6 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
 ```mermaid
 graph TD
     A[Recebimento do Documento - Link Google Docs ou .docx] --> B[Download do Arquivo & Extração do Texto]
-```mermaid
-graph TD
-    A[Recebimento do Documento - Link Google Docs ou .docx] --> B[Download do Arquivo & Extração do Texto]
     B --> C[Auditoria do Cabeçalho: Pauta, Partes, Patronos e Retirada do Assunto]
     C --> D[Auditoria do Relatório & Identificação de Transcrição JJT]
     D --> E[Auditoria dos Votos: Relator, Divergentes e Vencedor]
