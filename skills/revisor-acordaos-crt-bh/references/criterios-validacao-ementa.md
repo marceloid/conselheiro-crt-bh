@@ -15,7 +15,12 @@ A Secretaria do CRT adota uma estrutura padronizada e lógica de verbetação co
 | Nível | Função | O que descrever | Exemplos Típicos |
 |---|---|---|---|
 | **1ª** | **Tema Principal / Tributo** | Espécie tributária envolvida | `IPTU`, `ITBI`, `ISSQN`, `TAXAS` |
-| **2ª** | **Ato Questionado / Procedimento** | Ação fiscal ou ato impugnado | `REVISÃO DE LANÇAMENTO`, `AUTO DE INFRAÇÃO (AITI)`, `TERMO DE VERIFICAÇÃO FISCAL (TVF)`, `RECLAMAÇÃO ADMINISTRATIVA` |
+| **2ª** | **Ato Questionado / Procedimento** | Ação fiscal ou ato impugnado | `TVF/AITI` *(obrigação principal de ISSQN)*, `AITI` *(obrigação acessória)*, `TVF`, `REVISÃO DE LANÇAMENTO` *(IPTU/ITBI)*, `RECLAMAÇÃO ADMINISTRATIVA` |
+
+> **Regra Prática de Escolha no 2º Nível:**
+> - **Cobrança de ISSQN Próprio (Obrigação Principal):** O imposto apurado de ofício é formalizado pelo Termo de Verificação Fiscal (TVF) e exigido pelo Auto de Infração (AITI); utilize obrigatoriamente **`TVF/AITI`** (ou `TVF`).
+> - **Multas Isoladas por Dever Instrumental (Obrigação Acessória):** Não há apuração de imposto próprio por TVF, sendo lavrado diretamente o auto de infração penal; utilize **`AITI`** (ou `AITI – OBRIGAÇÃO ACESSÓRIA`).
+> - **Tributos Diretos (IPTU e ITBI):** Não há emissão de TVF; utilize **`REVISÃO DE LANÇAMENTO`** ou **`AVALIAÇÃO FISCAL`**.
 | **3ª** | **Instituto Jurídico Central** | Matéria de direito em discussão em tese | `FATOR DE CORREÇÃO`, `NÃO INCIDÊNCIA`, `IMUNIDADE TRIBUTÁRIA`, `DECADÊNCIA`, `TEMPESTIVIDADE` |
 | **4ª** | **Tese Específica do Caso** | O argumento central concreto analisado | `PEDOLOGIA`, `SUPERFÍCIE INUNDÁVEL`, `INTEGRALIZAÇÃO DE CAPITAL SOCIAL`, `ATIVIDADE PREPONDERANTE` |
 | **5ª** | **Solução da Lide & Fundamento Legal** | Critério jurídico adotado e artigo/súmula/tema | `CRITÉRIO ECONÔMICO-FUNCIONAL`, `VEDAÇÃO À RETROATIVIDADE (ART. 146 DO CTN)`, `TEMA 796 DO STF`, `RESP Nº 2.089.218/SP` |

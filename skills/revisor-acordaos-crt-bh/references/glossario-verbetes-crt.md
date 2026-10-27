@@ -30,15 +30,27 @@ Define o campo material do contencioso:
 
 ### 2º Nível: Ato Questionado ou Rito Procedimental
 Identifica a peça fiscal ou o procedimento administrativo impugnado:
-- `REVISÃO DE LANÇAMENTO` *(regra geral para contestações de ofício ou apurações fiscais)*
-- `AUTO DE INFRAÇÃO (AITI)` *(quando o foco for a lavratura da penalidade ou obrigação principal)*
-- `TERMO DE VERIFICAÇÃO FISCAL (TVF)`
+- `TVF/AITI` *(padrão canônico de excelência para lançamentos de obrigação principal de ISSQN)*
+- `AITI` ou `AUTO DE INFRAÇÃO (AITI)` *(quando o foco for a lavratura da penalidade ou obrigação acessória)*
+- `TERMO DE VERIFICAÇÃO FISCAL (TVF)` *(quando a discussão concentrar-se na apuração do imposto)*
+- `REVISÃO DE LANÇAMENTO` *(aplicável primordialmente a IPTU, ITBI e revisões cadastrais de ofício)*
 - `OBRIGAÇÃO TRIBUTÁRIA ACESSÓRIA` ou `DESCUMPRIMENTO DE OBRIGAÇÃO ACESSÓRIA`
 - `DECLARAÇÃO ELETRÔNICA DE SERVIÇOS (DES)`
 - `PEDIDO DE RECONHECIMENTO DE IMUNIDADE TRIBUTÁRIA`
 - `PEDIDO DE ISENÇÃO`
 - `RECLAMAÇÃO ADMINISTRATIVA`
 - `DESPACHO DE NEGATIVA DE SEGUIMENTO` *(em agravos)*
+
+#### Distinção Prática Fundamental: Quando Usar TVF, AITI ou TVF/AITI
+
+Na sistemática de fiscalização tributária de Belo Horizonte (PBH/SMFA), a relação entre TVF e AITI obedece a uma lógica estrita que define a escolha do verbete no 2º Nível:
+
+| Hipótese Fática / Ato Fiscal | Significado Procedimental na PBH | Verbete Recomendado no 2º Nível | Exemplo de Verbetação |
+|---|---|---|---|
+| **Cobrança de ISSQN Próprio (Obrigação Principal)** | O imposto apurado de ofício é formalizado pelo **Termo de Verificação Fiscal (TVF)** e o crédito tributário é exigido pelo **Auto de Infração e Termo de Intimação (AITI)**. Ambos os atos compõem indissociavelmente o lançamento da obrigação principal. | **`TVF/AITI`** *(ou `TVF`)* | `ISSQN – TVF/AITI – RETENÇÃO NA FONTE...`<br>`ISSQN – TVF/AITI – FATO GERADOR – ARRENDAMENTO MERCANTIL...` |
+| **Multas Isoladas por Dever Instrumental (Obrigação Acessória)** | O contribuinte é autuado exclusivamente por descumprir obrigação acessória de fazer/não fazer (ex.: deixar de reter ISSQN, falta de entrega ou omissão na DES, não atendimento a termo de intimação). Não há apuração de imposto próprio via TVF, mas lavratura direta de auto de infração penal. | **`AITI`** ou **`AITI – OBRIGAÇÃO ACESSÓRIA`** | `ISSQN – AITI – OBRIGAÇÃO TRIBUTÁRIA ACESSÓRIA – FALTA DE ENTREGA DA DES...`<br>`ISSQN – AITI – RETENÇÃO NA FONTE – DESCUMPRIMENTO DE DEVER INSTRUMENTAL...` |
+| **Revisão de Ofício de Tributos Diretos (IPTU e ITBI)** | Em IPTU e ITBI não há emissão de TVF (instrumento típico da fiscalização de ISSQN). O lançamento decorre de notificação de lançamento de ofício, revisão cadastral ou reavaliação de base de cálculo. | **`REVISÃO DE LANÇAMENTO`** ou **`AVALIAÇÃO FISCAL`** | `IPTU – REVISÃO DE LANÇAMENTO – PEDOLOGIA...`<br>`ITBI – REVISÃO DE LANÇAMENTO – INTEGRALIZAÇÃO DE CAPITAL...` |
+| **Contencioso de Rito Específico (Negativas de Seguimento e Despachos)** | A discussão não ingressa no mérito do auto ou termo fiscal, mas combate ato extintivo ou denegatório prévio. | **`DESPACHO DE NEGATIVA DE SEGUIMENTO`** ou **`TERMO DE EXCLUSÃO`** | `AGRAVO – DESPACHO DE NEGATIVA DE SEGUIMENTO DE RECLAMAÇÃO...`<br>`SIMPLES NACIONAL – TERMO DE EXCLUSÃO...` |
 
 ---
 
