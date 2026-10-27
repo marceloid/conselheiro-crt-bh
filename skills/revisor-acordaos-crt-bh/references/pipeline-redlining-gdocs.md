@@ -14,7 +14,7 @@ Para sugerir a substituição de um texto `antigo` por `novo` acompanhado de com
 
 ```xml
 <w:commentRangeStart w:id="1"/>
-<w:del w:id="101" w:author="Revisor CRT-BH" w:date="2026-08-20T10:00:00Z">
+<w:del w:id="101" w:author="Revisor IA CRT-BH" w:date="2026-08-20T10:00:00Z">
   <w:r>
     <w:rPr>
       <w:sz w:val="24"/>
@@ -23,7 +23,7 @@ Para sugerir a substituição de um texto `antigo` por `novo` acompanhado de com
     <w:delText xml:space="preserve">antigo</w:delText>
   </w:r>
 </w:del>
-<w:ins w:id="102" w:author="Revisor CRT-BH" w:date="2026-08-20T10:00:00Z">
+<w:ins w:id="102" w:author="Revisor IA CRT-BH" w:date="2026-08-20T10:00:00Z">
   <w:r>
     <w:rPr>
       <w:sz w:val="24"/>
@@ -49,7 +49,7 @@ Para sugerir a substituição de um texto `antigo` por `novo` acompanhado de com
             xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
             xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
             xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
-  <w:comment w:id="1" w:author="Revisor CRT-BH" w:date="2026-08-20T10:00:00Z" w:initials="CRT">
+  <w:comment w:id="1" w:author="Revisor IA CRT-BH" w:date="2026-08-20T10:00:00Z" w:initials="RIA">
     <w:p>
       <w:pPr>
         <w:pStyle w:val="CommentText"/>
@@ -70,7 +70,7 @@ Para sugerir a substituição de um texto `antigo` por `novo` acompanhado de com
 
 ### Pontos Críticos do Esquema XML:
 1. **Unicidade de IDs**: Cada `<w:del>`, `<w:ins>` e `<w:comment>` deve possuir um atributo `w:id` numérico e globalmente único no documento.
-2. **Atributo do Autor**: `w:author` deve conter o nome do revisor (ex.: `"Revisor CRT-BH"` ou nome do usuário).
+2. **Atributo do Autor e Iniciais**: O atributo `w:author` deve conter OBRIGATORIAMENTE `"Revisor IA CRT-BH"` e `w:initials="RIA"` (garantindo transparência institucional e auditoria em acórdãos revisados por inteligência artificial, salvo se o usuário expressamente solicitar o uso de outro nome).
 3. **Atributo de Data**: `w:date` em formato ISO 8601 UTC (`YYYY-MM-DDTHH:MM:SSZ`).
 4. **Elemento de Texto Excluído**: Dentro de `<w:del><w:r>`, usa-se `<w:delText>`, **nunca** `<w:t>`.
 5. **Comentários Obrigatórios em 100% das Sugestões**: Toda alteração inserida deve ter seu comentário correspondente em `word/comments.xml` justificando o motivo da intervenção.
