@@ -91,3 +91,26 @@ Consulte os arquivos de referência para a aplicação rigorosa dos critérios:
 5. **Procedimento de Consulta de Atas e Pautas no DOM (PBH)**:
    - Consulta automatizada via API pública do DOM (`https://api-dom.pbh.gov.br`) para auditoria e confronto de histórico de sorteios, pautas, suspensões e decisões em ata.
    - Consulte: [`references/consulta-atas-dom.md`](references/consulta-atas-dom.md)
+
+6. **Glossário Canônico de Verbetes, Direito Intertemporal e Fechos**:
+   - Taxonomia dos 6 níveis, sucessão temporal dos regulamentos do CART-BH (Decretos nº 16.197/2016, 18.716/2024, 18.783/2024 e 19.460/2026), revogação do Decreto da DES (Decreto nº 11.467/2003 pelo Decreto nº 17.174/2019) e mapa determinístico de fechos da ementa.
+   - Consulte: [`references/glossario-verbetes-crt.md`](references/glossario-verbetes-crt.md)
+
+7. **Catálogo de Teses-Paradigma do CRT-BH**:
+   - Repositório temático categorizado com as teses canônicas extraídas das decisões do CRT, com redação de verbetação oficial, enunciados abstratos e lista de acórdãos precedentes.
+   - Consulte: [`references/teses/itbi.md`](references/teses/itbi.md), [`references/teses/issqn.md`](references/teses/issqn.md), [`references/teses/iptu_taxas.md`](references/teses/iptu_taxas.md), [`references/teses/processual.md`](references/teses/processual.md)
+
+---
+
+## 5. Scripts Auxiliares de Auditoria e Pesquisa
+
+A skill conta com scripts utilitários em Python para automação de conferência e recuperação de precedentes:
+
+- **Validador de Ementas (`scripts/validar_ementa.py`):**
+  - Audita os 6 níveis da verbetação, direito intertemporal de decretos municipais, precedentes vinculantes (Temas do STF/STJ), anti-casuísmo e fecho regulamentar.
+  - Execução: `python scripts/validar_ementa.py <arquivo.docx | texto>`
+- **Buscador de Teses-Paradigma (`scripts/buscar_tese.py`):**
+  - Recupera instantaneamente a verbetação recomendada, as proposições de ementa e os acórdãos precedentes do CRT.
+  - Execução: `python scripts/buscar_tese.py "<termo de busca>"` (ex.: `python scripts/buscar_tese.py "integralização de capital"`)
+- **Extrator de Decisões (`scripts/extrair_teses_paradigma.py`):**
+  - Pipeline que consome a base `decisao.csv` para atualizar o catálogo temático de teses em `references/teses/`.
