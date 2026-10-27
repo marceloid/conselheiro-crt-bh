@@ -134,3 +134,19 @@ Relator: Dr. [Nome]  (ou Relatora: Dra. [Nome])
 - Quando o Relator adotar o relatório elaborado pela primeira instância (JJT):
   - *Identificador:* *"Pelos princípios da economia e da celeridade processual, adoto o relatório apresentado pela JJT (Ato 18), nos termos a seguir:"*
   - **REGRA ABSOLUTA**: **NÃO FAZER QUALQUER MODIFICAÇÃO** dentro do bloco transcrito da JJT. Preservar o texto original integral, inclusive siglas e erros materiais da transcrição original.
+
+---
+
+## 7. Numeração de Folhas e Páginas do Processo (Separador de Milhar e Crase)
+
+1. **Separador de Milhar Obrigatório (`.`)**:
+   - Toda e qualquer citação de numeração de folhas ou páginas dos autos a partir de 1.000 **DEVE CONTER OBRIGATORIAMENTE O PONTO DE MILHAR (`.`)**:
+     - ✔ `fl. 1.040`, `fls. 1.068 a 1.069`, `fls. 1.205 a 1.208v.`, `fls. 1.228/1.241`
+     - ❌ *Incorreto:* `fls. 1040`, `fls. 1068 a 1069`, `fls. 1205 a 1208v`, `1228/1241`
+2. **Concordância Singular vs. Plural e Crase Obrigatória**:
+   - **Folha Única:** empregar a preposição com crase no singular: **`à fl. [Número]`**.
+     - ✔ `à fl. 966`, `à fl. 1.040`, `à fl. 1.074`
+     - ❌ *Incorreto:* `à fls. 966`, `a fl. 966`, `fls. 966`
+   - **Intervalo ou Múltiplas Folhas:** empregar a preposição com crase no plural: **`às fls. [Início] a [Fim]`** ou **`às fls. [Início]/[Fim]`**.
+     - ✔ `às fls. 968 a 971`, `às fls. 1.068 a 1.069`, `às fls. 987 a 1.004`
+     - ❌ *Incorreto:* `à fls. 968 a 971`, `as fls. 968 a 971`, `fls. 968 a 971`

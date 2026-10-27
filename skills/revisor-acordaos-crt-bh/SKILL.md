@@ -27,7 +27,8 @@ Diferentemente da atividade judicante de redação de votos (que elabora teses e
      b) Padronizar siglas e citações legislativas;
      c) Adequar o formato dos números de processo ao padrão oficial;
      d) Ajustar a caixa alta em peças e documentos específicos dos autos;
-     e) Sanar inconsistências formais graves (ex.: datas com erros crassos).
+     e) Sanar inconsistências formais graves (ex.: datas com erros crassos);
+     f) Aplicar obrigatoriamente o **separador de milhar (`.`)** na numeração de folhas e páginas dos autos a partir de 1.000 (ex.: `fls. 1.068 a 1.069`, `fls. 1.205 a 1.208v.`) e ajustar a concordância e crase (`à fl. [Número]` no singular, `às fls. [Início] a [Fim]` no plural).
 3. **Regra de Transcrição da 1ª Instância (JJT)**:
    - Quando o Relator adotar o relatório da primeira instância (ex.: *"Pelos princípios da economia e celeridade processual, adoto o relatório apresentado pela JJT..."*), todo o bloco transcrito a seguir **NÃO PODE SER ALTERADO**. É citação direta dos autos.
 4. **Citações Literais entre Aspas**:
